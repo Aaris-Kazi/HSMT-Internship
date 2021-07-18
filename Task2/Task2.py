@@ -18,28 +18,29 @@ try:
     driver = webdriver.Chrome(PATH)
     driver.get('https://www.castleconnolly.com/search?q=neurologist&postalCode=&location=Illinois+City%2C+IL&tf1=5117bfc9-a93e-3ba3-82f1-73359a3d585e')
     dev = driver.title
-    print(dev)   
-    name = driver.find_elements_by_class_name('PromoSearchResult-title')
-    for i in name:
-        doc_name.append(i.text)
-
-    location = driver.find_elements_by_class_name('PromoSearchResult-address')
-    for i in location:
-        doc_location.append(i.text)
-
+    print(dev) 
+    def get_detail():
+        time.sleep(1)
+        name = driver.find_elements_by_class_name('PromoSearchResult-title')
+        location = driver.find_elements_by_class_name('PromoSearchResult-address')
+        hospitals = driver.find_elements_by_class_name('PromoSearchResult-related-desktop')
+        speciality = driver.find_elements_by_class_name('PromoSearchResult-specialty')
+        phone_number = driver.find_elements_by_class_name('PromoSearchResult-phoneNumber-item')
+        return name, location, hospitals, speciality, phone_number
+        
     
-    hospitals = driver.find_elements_by_class_name('PromoSearchResult-related-desktop')
-    for i in hospitals:
-        doc_hospitals.append(i.text)
-
-    
-    speciality = driver.find_elements_by_class_name('PromoSearchResult-specialty')
-    for i in speciality:
-        doc_spec.append(i.text)
-
-    phone_number = driver.find_elements_by_class_name('PromoSearchResult-phoneNumber-item')
-    for i in phone_number:
-        doc_number.append(i.text)
+    for i in range(3):
+        name, location, hospitals, speciality, phone_number = get_detail()
+        for i, j, k, l, m in zip(name, location, hospitals, speciality, phone_number) :
+            doc_name.append(i.text)
+            doc_location.append(j.text)
+            doc_hospitals.append(k.text)
+            doc_spec.append(l.text)
+            doc_number.append(m.text)
+            element = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.CLASS_NAME, 'SearchResultsModule-nextPage'))
+            )
+            driver.execute_script("arguments[0].click();", element)
 
     print(doc_name)
     print('**********************')
@@ -50,12 +51,6 @@ try:
     print(doc_spec)
     print('**********************')
     print(doc_number)
-    
-    element = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/ps-search-results-module/form/div[2]/ps-search-filters/div/main/div[3]/div[3]/a'))
-        )
-    driver.execute_script("arguments[0].click();", element)
-    
     time.sleep(5)
     driver.quit()
     driver.close()
@@ -63,9 +58,11 @@ except Exception as e:
     print(e)
 
 
-# df= pd.DataFrame({
-#     "Name": doc_name,
-#     "Raitngs": doc_rating,
-#     "Votes": doc_votes
-# })
-# df.to_csv('srinagar_doctors.csv')
+df= pd.DataFrame({
+    "Name": doc_name,
+    "Speciality": doc_spec,
+    "Location": doc_location,
+    "Hospitals": doc_hospitals,
+    "Phone Number": doc_number
+})
+df.to_csv('doctors_usa.csv')
