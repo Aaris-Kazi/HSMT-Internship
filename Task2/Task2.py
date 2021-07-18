@@ -27,30 +27,11 @@ try:
     driver = webdriver.Chrome(PATH)
     driver.get('https://www.castleconnolly.com/search?q=neurologist&postalCode=&location=Illinois+City%2C+IL&tf1=5117bfc9-a93e-3ba3-82f1-73359a3d585e')
     dev = driver.title
-    print(dev)
-
-    # doctor = driver.find_element_by_class_name('SearchBar-formInput')
-    # doctor.click()
-    # doctor.send_keys('neurologist')
-    # time.sleep(3)
-    # city = driver.find_element_by_id('location')
-    # city.click()
-    # city.send_keys('illinois')
-
-    # time.sleep(2)
-    # option = driver.find_element_by_xpath('//*[@id="LocationLookup-items"]/li[1]/span')
-    # option.click()
-
-    # search = driver.find_element_by_class_name('SearchBar-submitButton')
-    # search.click()
-
-    
-   
+    print(dev)   
     name = driver.find_elements_by_class_name('PromoSearchResult-title')
     for i in name:
         doc_name.append(i.text)
 
-    
     location = driver.find_elements_by_class_name('PromoSearchResult-address')
     for i in location:
         doc_location.append(i.text)
@@ -69,10 +50,6 @@ try:
     for i in phone_number:
         doc_number.append(i.text)
 
-    # doc_name = filtersx(doc_name)
-    # doc_rating = filtersx(doc_rating)
-    # doc_votes = filtersx(doc_votes)
-    # doc_spec = filtersx(doc_spec)
     print(doc_name)
     print('**********************')
     print(doc_location)
@@ -87,9 +64,7 @@ try:
         EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/ps-search-results-module/form/div[2]/ps-search-filters/div/main/div[3]/div[3]/a'))
         )
     driver.execute_script("arguments[0].click();", element)
-    # element.click()
-    # Create = driver.find_element_by_xpath('/html/body/div[1]/ps-search-results-module/form/div[2]/ps-search-filters/div/main/div[3]/div[3]')
-    # Create.click()
+    
     time.sleep(5)
     driver.quit()
     driver.close()
