@@ -13,15 +13,6 @@ doc_location = []
 doc_hospitals = []
 doc_number = []
 try:
-    def filtersx(x):
-        valid_output = []
-        for i in x:
-            if len(i) == 0:
-                pass
-            else:
-                valid_output.append(i)
-        return valid_output
-
 
     PATH = r'Qualifying\chromedriver.exe'
     driver = webdriver.Chrome(PATH)
