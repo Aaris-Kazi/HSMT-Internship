@@ -28,17 +28,11 @@ try:
         for i in Hospital:
             hop = i.find_element_by_class_name('ng-binding')
             doc_hospitals.append(i.text)
-        # location = driver.find_elements_by_class_name('PromoSearchResult-address')
-        # hospitals = driver.find_elements_by_class_name('PromoSearchResult-related-desktop')
-        # phone_number = driver.find_elements_by_class_name('PromoSearchResult-phoneNumber-item')
-        # return name, location, hospitals, speciality, phone_number
         return name, speciality, doc_hospitals
         
     
     for i in range(1):
-        # name, location, hospitals, speciality, phone_number = get_detail()
         name, speciality, doc_hospitals = get_detail()
-        # for i, j, k, l, m in zip(name, location, hospitals, speciality, phone_number) :
         for i in name:
             doc_name.append(i.text)
         for i in speciality:
@@ -52,10 +46,10 @@ try:
         # next = driver.find_element_by_class_name('next')
         # nexting = next.find_element_by_tag_name('a')
         # nexting.click()
-        # element = WebDriverWait(driver, 10).until(
-        #     EC.element_to_be_clickable((By.CLASS_NAME, 'next'))
-        # )
-        # driver.execute_script("arguments[0].click();", element)
+        element = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CLASS_NAME, 'meddy-light-chevron.gray-chevron.chevron-right'))
+        )
+        driver.execute_script("arguments[0].click();", element)
 
     print(doc_name)
     print('**********************')
@@ -70,7 +64,7 @@ try:
     driver.quit()
     driver.close()
 except Exception as e:
-    print(e)
+    pass
 
 
 df= pd.DataFrame({
