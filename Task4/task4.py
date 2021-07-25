@@ -35,11 +35,9 @@ print(dev)
 name = driver.find_elements_by_class_name('Drname.ng-binding')
 htag = driver.find_elements_by_tag_name('strong')
 # hospital = driver.find_elements_by_class_name('DrDesignation.ng-binding')
-doc_name = []
-for i in name:
-    doc_name.append(i.text)
-doctor_name= for_unique(doc_name)
-print(len(doc_name))
+
+doctor_name= for_unique(name)
+print(len(doctor_name))
 hospital = for_unique(htag)
 print(len(hospital))
 driver.quit()
