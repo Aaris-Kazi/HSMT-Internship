@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 
 td = []
+manufature = []
 consume_type = []
 med_names = []
 brand_name = []
@@ -34,19 +35,20 @@ driver.quit()
 i = 1
 for i in range(len(td)):
     if i ==0:
+        manufature.append('CIPLA')
         brand_name.append(td[i])
         med_names.append(td[i+1])
         consume_type.append(td[i+2])
 
     if i%3 == 0:
-        # print(df.iloc[i])
+        manufature.append('CIPLA')
         brand_name.append(td[i])
         med_names.append(td[i+1])
         consume_type.append(td[i+2])
-# print(consume_type)
-# print(df.iloc[6])
+
 df = pd.DataFrame({
-    "Brand Name": brand_name,
+    "medName": brand_name,
+    'Manufacturer': manufature,
     "Molecules": med_names,
     "Dosage Form": consume_type
 })
