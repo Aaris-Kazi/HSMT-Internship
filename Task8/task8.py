@@ -53,7 +53,7 @@ try:
     PATH = r'Task1\chromedriver.exe'
     driver = webdriver.Chrome(PATH)
 
-    driver.get('https://www.justdial.com/Surat/Multispeciality-Hospitals/nct-10547585')
+    driver.get('https://www.justdial.com/Surat/Multispeciality-Hospitals/nct-10547585/page-1')
     dev = driver.title
     print(dev)
     def get_details():
@@ -113,7 +113,7 @@ try:
     # print(doc_rating)
     # print(doc_votes)
     # print(doc_spec)
-    # print(doc_add)
+    print(doc_add)
     # print(doc_links)
     # print(doc_contacts)
     print(len(doc_name))
