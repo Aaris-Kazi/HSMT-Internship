@@ -84,6 +84,10 @@ def main():
     doc_contacts =[]
     doc_links =[]
     doc_page =[]
+    doc_country =[]
+    doc_state =[]
+    doc_city =[]
+    doc_type = []
     for i in range(10):
         # name = page(i)
         # for i in name:
@@ -92,6 +96,7 @@ def main():
         for i in contacts:
             doc_contacts.append(i)
         for i, j, k, l, m, n, o in zip(names, ratings, votes, specialties, address, img_links, page_links):
+            doc_type.append('Hospital')
             doc_name.append(i.text)
             doc_rating.append(j.text)
             doc_votes.append(k.text)
@@ -99,6 +104,9 @@ def main():
             doc_add.append(m.text)
             doc_links.append(n.get_attribute('src'))
             doc_page.append(o)
+            doc_country.append('India')
+            doc_state.append('Gujarat')
+            doc_city.append('Surat')
 
     doc_name = filtersx(doc_name)
     doc_rating = filtersx(doc_rating)
@@ -115,16 +123,20 @@ def main():
     print(len(doc_links))
     print(len(doc_page))
     df= pd.DataFrame({
+        'Type': doc_type,
         'Photo': doc_links,
         "Name": doc_name,
+        "Contacts": doc_contacts,
         "Speciality": doc_spec,
         "Address": doc_add,
-        "Contacts": doc_contacts,
-        "Page Link": doc_page,
+        'City':doc_city,
+        'State': doc_state,
+        "Country": doc_country,
         "Raitngs": doc_rating,
-        "Votes": doc_votes
+        "Votes": doc_votes,
+        "Page Link": doc_page
     })
-    df.to_csv('surat_doctors1.csv')
+    df.to_csv('surat_hospital.csv')
 
 if __name__ == '__main__':
     main()
