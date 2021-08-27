@@ -1,13 +1,16 @@
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.chrome import ChromeDriverManager
 import time
 import pandas as pd
 
-options = webdriver.ChromeOptions()
-options.add_argument('--disable-blink-features=AutomationControlled')
-driver = webdriver.Chrome(ChromeDriverManager().install(),options=options)
+PATH = r'Task1\chromedriver.exe'
+driver = webdriver.Chrome(PATH)
 
-driver.get("https://www.justdial.com/Mumbai/Hospitals/nct-10253670")
+# options = webdriver.ChromeOptions()
+# options.add_argument('--disable-blink-features=AutomationControlled')
+# driver = webdriver.Chrome(PATH,ChromeDriverManager().install(),options=options)
+
+driver.get("https://www.justdial.com/Surat/Sanskruti-Prasutigruh-Surgical-Hospital-Katargam/0261PX261-X261-190213231728-S5Y6_BZDET?xid=U3VyYXQgTXVsdGlzcGVjaWFsaXR5IEhvc3BpdGFscw==")
 link = []
 NA = "NaN"
 # '<span class="lng_cont_name">Hcg Ics Khubchandani Cancer..</span>'

@@ -237,15 +237,15 @@ except Exception as e:
 # print(len(doc_page))
 # driver.quit()
 # driver.close()
-# df= pd.DataFrame({
-#     'Photo': doc_links,
-#     "Name": doc_name,
-#     "Speciality": doc_spec,
-#     "Address": doc_add,
-#     "Contacts": doc_contacts,
-#     "Page Link": doc_page,
-#     "Raitngs": doc_rating,
-#     "Votes": doc_votes
-# })
-# df.to_csv('surat_doctors.csv')
+df= pd.DataFrame({
+    'Photo': doc_links,
+    "Name": doc_name,
+    "Speciality": doc_spec,
+    "Address": doc_add,
+    "Contacts": doc_contacts,
+    "Page Link": doc_page,
+    "Raitngs": doc_rating,
+    "Votes": doc_votes
+})
+df.to_csv('surat_doctors.csv')
 
