@@ -39,6 +39,7 @@ def page(i):
     driver = webdriver.Chrome(PATH)
 
     driver.get('https://www.justdial.com/Surat/Multispeciality-Hospitals/nct-10547585/page-'+str(i+1)+'')
+    # driver.get('https://www.justdial.com/Lucknow/Multispeciality-Hospitals/nct-10547585/page-'+str(i+1)+'')
     dev = driver.title
     print(dev)
     name = driver.find_elements_by_class_name('lng_cont_name')
@@ -67,7 +68,14 @@ def page(i):
 
         numbersList.append("".join(myList))
         
-    
+    # print(len(name))
+    # print(len(rating))
+    # print(len(votes))
+    # print(len(speciality))
+    # print(len(address))
+    # print(len(numbersList))
+    # print(len(img_links))
+    # print(len(page_links))
     return name, rating, votes,speciality, address, numbersList, img_links, page_links
     driver.close()
     driver.quit()
@@ -95,6 +103,8 @@ def main():
         names, ratings, votes, specialties, address, contacts, img_links, page_links = page(i)
         for i in contacts:
             doc_contacts.append(i)
+        print(doc_contacts)
+        print(len(doc_contacts))
         for i, j, k, l, m, n, o in zip(names, ratings, votes, specialties, address, img_links, page_links):
             doc_type.append('Hospital')
             doc_name.append(i.text)
@@ -105,8 +115,8 @@ def main():
             doc_links.append(n.get_attribute('src'))
             doc_page.append(o)
             doc_country.append('India')
-            doc_state.append('Gujarat')
-            doc_city.append('Surat')
+            doc_state.append('Uttar Pradesh')
+            doc_city.append('Lucknow')
 
     doc_name = filtersx(doc_name)
     doc_rating = filtersx(doc_rating)
@@ -136,7 +146,7 @@ def main():
         "Votes": doc_votes,
         "Page Link": doc_page
     })
-    df.to_csv('surat_hospital.csv')
+    df.to_csv('lucknow_hospital.csv')
 
 if __name__ == '__main__':
     main()
