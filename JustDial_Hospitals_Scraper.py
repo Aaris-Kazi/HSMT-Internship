@@ -9,7 +9,7 @@ driver = webdriver.Chrome(PATH)
 # options = webdriver.ChromeOptions()
 # options.add_argument('--disable-blink-features=AutomationControlled')
 # driver = webdriver.Chrome(PATH,ChromeDriverManager().install(),options=options)
-
+# https://www.justdial.com/Surat/Samarpan-Multi-Speciality-Hospital-Near-Gujarat-Housing-Board-Sachin/0261PX261-X261-150918122755-K8A8_BZDET?xid=U3VyYXQgTXVsdGlzcGVjaWFsaXR5IEhvc3BpdGFscw==
 driver.get("https://www.justdial.com/Surat/Sanskruti-Prasutigruh-Surgical-Hospital-Katargam/0261PX261-X261-190213231728-S5Y6_BZDET?xid=U3VyYXQgTXVsdGlzcGVjaWFsaXR5IEhvc3BpdGFscw==")
 link = []
 NA = "NaN"

@@ -1,8 +1,3 @@
-i = 0
-# for i in range(10):
-#     i= i+2
-#     print(i)
-
-while i <= 10:
-    print(i)
-    i = i+2
+2. Website : https://www.vaidam.com/cost
+assigned to : Aaris , Surya Prasad
+Details to get* : Procedure/surgery name , Cost , Total days , Top hospitals, Top doctors
