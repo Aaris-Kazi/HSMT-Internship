@@ -42,6 +42,14 @@ for i in range(4):
 time.sleep(5)
 driver.close()
 driver.quit()
+df = pd.DataFrame({
+    'Surgery Name': surger_name,
+    'Cost': cost,
+    'Total Days':days,
+    'Top Hospital':hopsital,
+    'Top Doctor': doc_name
+})
+df.to_csv('demo.csv')
 
 
 
