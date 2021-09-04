@@ -63,9 +63,9 @@ try:
 except Exception :
     pass
 
-df= pd.DataFrame({
-    "Name": doc_name,
-    "Raitngs": doc_rating,
-    "Votes": doc_votes
-})
-df.to_csv('srinagar_doctors.csv')
+# df= pd.DataFrame({
+#     "Name": doc_name,
+#     "Raitngs": doc_rating,
+#     "Votes": doc_votes
+# })
+# df.to_csv('srinagar_doctors.csv')
