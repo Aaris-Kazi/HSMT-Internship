@@ -38,7 +38,7 @@ for i in range(4):
     days.append(tdays.text)
     cost.append(price.text)
     surger_name.append(procedure.text)
-
+driver.execute_script("arguments[0].click();", name)
 time.sleep(5)
 driver.close()
 driver.quit()
