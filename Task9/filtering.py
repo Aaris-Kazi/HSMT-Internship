@@ -6,7 +6,7 @@ for i in range(len(df)):
     try:
         if "HOTEL'S NAME: " in df['Hotels'][i] or "HOTEL'S DISTANCE FROM HOSPITAL (IN KM):" in df['Hotels'][i]:
             x = df['Hotels'][i]
-            m = x.strip('\nSTAR RTAING:')
+            m,n = x.split('\nSTAR RTAING:')
             print(m)
             # print(df.iloc[i])
             
