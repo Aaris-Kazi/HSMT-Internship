@@ -21,7 +21,8 @@ Operatingrooms = []; Intlarr = []
 Procedure = []; MaxCost = [];MinCost = []
 Mindays = [];Maxdays = [];Certificate = []
 hotel_name, star, distance, room, price = [], [], [], [], []
-
+hosp = []
+temp = ''
 # url = 'https://www.indiahealthcare.org/?speciality=Diabetes%20%26%20Endocrinology'
 url = 'https://www.indiahealthcare.org/?speciality=Urology'
 driver.get(url)
@@ -32,35 +33,18 @@ def fetch():
     for name in names:
         driver.execute_script("arguments[0].click();", name)
         print(name.text)
+        temp = name.text
         i+=1
         time.sleep(2)
         Name.append(name.text)
         driver.switch_to.window(driver.window_handles[i])
         time.sleep(1)
-        # print(driver.current_window_handle)
-
-        Speciality.append("Urologist")
-
-        # Procedure.append('''Valve replacement - AVR/MVR (including valves),
-        # \nDouble valve replacement (DVR, including two valves),
-        # \nValve replacement (Avr/Mvr - Minimal Invasive procedure),
-        # \nBentall's Surgery''')
-
-        Procedure.append('Robotic Surgeries')
-
-        MinCost.append('95250 INR')
-
-        MaxCost.append('254000 INR')
-
-        Mindays.append("2 days")
-        Maxdays.append("2 days")
-
-
         around_hospital = driver.find_element_by_id('nav-around-tab')
         around_hospital.click()
         hotel = driver.find_elements_by_class_name('hospital-item-card')
         for n in hotel:
-            
+            print(temp)
+            hosp.append(temp)
             # x = n.find_element_by_class_name('hospital-item-card_value')
             hotel_name.append(n.text)
             print(n.text)
