@@ -32,7 +32,7 @@ def fetch():
     names = driver.find_elements_by_class_name("hospital-name")
     for name in names:
         driver.execute_script("arguments[0].click();", name)
-        print(name.text)
+        # print(name.text)
         temp = name.text
         i+=1
         time.sleep(2)
@@ -43,11 +43,11 @@ def fetch():
         around_hospital.click()
         hotel = driver.find_elements_by_class_name('hospital-item-card')
         for n in hotel:
-            print(temp)
+            # print(temp)
             hosp.append(temp)
             # x = n.find_element_by_class_name('hospital-item-card_value')
             hotel_name.append(n.text)
-            print(n.text)
+            # print(n.text)
 
         
         # try:
@@ -117,9 +117,10 @@ fetch()
 #     next.click()
 # //*[@id="pagination"]/li[3]///*[@id="pagination"]/li[3]/a
 
-# df = pd.DataFrame({
-#     'Hotels': hotel_name
-# })
+df = pd.DataFrame({
+    'Hospitals': hosp,
+    'Hotels': hotel_name
+})
 # df = pd.DataFrame(dic)
-# df.to_csv("hotel.csv", mode="a")
-# driver.quit()
+df.to_csv("hotel.csv", mode="a")
+driver.quit()
