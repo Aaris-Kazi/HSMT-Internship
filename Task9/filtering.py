@@ -1,5 +1,5 @@
 import pandas as pd
-links, price_usd, price_inr, room_count, km, rating, hotel_name = [], [], [], [], [], [], []
+links, price_usd, price_inr, room_count, km, rating, hotel_name, hosp = [], [], [], [], [], [], [], []
 df = pd.read_csv('Task9\hotel.csv')
 # print(df)
 def gsplit(value):
@@ -9,9 +9,11 @@ for i in range(len(df)):
     try:
         if "HOTEL'S NAME: " in df['Hotels'][i] or "HOTEL'S DISTANCE FROM HOSPITAL (IN KM):" in df['Hotels'][i]:
             x = df['Hotels'][i]
+            y = df['Hospitals'][i]
             m, n = x.split('\nSTAR RTAING:')
             m = gsplit(m)
             hotel_name.append(m)
+            hosp.append(y)
             # print(m)
             # print(n)
             m, n = n.split("\nHOTEL'S DISTANCE FROM HOSPITAL (IN KM):")
@@ -47,29 +49,15 @@ for i in range(len(df)):
         # print(e)
         pass
 df = pd.DataFrame({
+    'Hospital': hosp,
     'Hotels': hotel_name,
     'Ratings': rating,
     'KM Range': km,
     'Room Count': room_count,
     'Price USD': price_usd,
     'Price INR': price_inr,
-    'Links': links,
+    'Links': links
 })
-# df = pd.DataFrame(dic)
-df.to_csv("hosp_hotel.csv", mode="a")
+# # df = pd.DataFrame(dic)
+df.to_csv("hosp_hotel1.csv", mode="a")
 
-
-# print(df.iloc[128])
-# print(df.iloc[129])
-# if 'APPOINTMENT ' in df.iloc[129]:
-#     print(df.iloc[129])
-# if "HOTEL'S " in df.iloc[128]:
-#     print(df.iloc[129])
-# if "APPOINTMENT LINK\n- not available -" == df.iloc[0]:
-#     print(df.iloc[0])
-
-# x = df[df['Hotels'] == "APPOINTMENT LINK\n- not available -"]
-# print(x)
-
-# y = df['APPOINTMENT ' in df['Hotels']]
-# print(y)
