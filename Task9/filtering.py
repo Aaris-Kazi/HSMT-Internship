@@ -1,23 +1,63 @@
 import pandas as pd
-
+links, price_usd, price_inr, room_count, km, rating, hotel_name = [], [], [], [], [], [], []
 df = pd.read_csv('Task9\hotel.csv')
 # print(df)
+def gsplit(value):
+    m,n = value.split('\n')
+    return n
 for i in range(len(df)):
     try:
         if "HOTEL'S NAME: " in df['Hotels'][i] or "HOTEL'S DISTANCE FROM HOSPITAL (IN KM):" in df['Hotels'][i]:
             x = df['Hotels'][i]
-            m,n = x.split('\nSTAR RTAING:')
-            print(m)
-            # print(df.iloc[i])
+            m, n = x.split('\nSTAR RTAING:')
+            m = gsplit(m)
+            hotel_name.append(m)
+            # print(m)
+            # print(n)
+            m, n = n.split("\nHOTEL'S DISTANCE FROM HOSPITAL (IN KM):")
+            m = gsplit(m)
+            rating.append(m)
+            # print(m)
+            # print(n)
+            m, n = n.split("\nROOM COUNT:")
+            m = gsplit(m)
+            km.append(m)
+            # print(m)
+            m, n = n.split("\nPRICE RANGE (INR):")
+            m = gsplit(m)
+            room_count.append(m)
+            # print(m)
+            m, n = n.split("\nPRICE RANGE (USD):")
+            m = gsplit(m)
+            price_inr.append(m)
+            # print(m)
+            # m, n = n.split("\nPRICE RANGE (USD):")
+            # m = gsplit(m)
+            # print(m)
+            m, n = n.split("\nHOTELS LINK:")
+            m = gsplit(m)
+            price_usd.append(m)
+            # print(m)
+            n = gsplit(n)
+            links.append(n)
+            # print(n)
+            # print(df.iloc[i].values)
             
-    except Exception:
+    except Exception as e:
+        # print(e)
         pass
+df = pd.DataFrame({
+    'Hotels': hotel_name,
+    'Ratings': rating,
+    'KM Range': km,
+    'Room Count': room_count,
+    'Price USD': price_usd,
+    'Price INR': price_inr,
+    'Links': links,
+})
+# df = pd.DataFrame(dic)
+df.to_csv("hosp_hotel.csv", mode="a")
 
-# if "HOTEL'S NAME: " in df["Hotels"][184] or "HOTEL'S DISTANCE FROM HOSPITAL (IN KM):" in df["Hotels"][184]:
-#     print(df["Hotels"][184])
-# x= "HOTEL'S NAME: OYO 10667 Prakash Guest House STAR RTAING: 2 HOTEL'S DISTANCE FROM HOSPITAL (IN KM): 1.0 35 1800 PRICE RANGE (USD): 24 HOTELS LINK: oyorooms.com"
-# if "HOTEL'S NAME: " in x:
-#     print(x)
 
 # print(df.iloc[128])
 # print(df.iloc[129])

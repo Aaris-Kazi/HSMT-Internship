@@ -133,21 +133,9 @@ fetch()
 #     next.click()
 # //*[@id="pagination"]/li[3]///*[@id="pagination"]/li[3]/a
 
-# dic = {"Name": Name, "Address": Address,
-#        "Phone Landline": Landline, "Phone Mobile": Mobile,
-#        "Email": email, "Website": Website,
-#        "Total Beds in Hospital": TotalBeds,"ICU Beds in Hospital": ICUBeds,
-#        "Operating Rooms in Hospital": Operatingrooms,
-#        "International arrivals per year": Intlarr,
-#        "Service Speciality": Speciality,
-#        "Name of Procedure": Procedure,
-#        "Max Cost in India(INR)": MaxCost, "Min Cost in India(INR)": MinCost,
-#        "Estimated Procedure Duration(days) min": Mindays,
-#        "Estimated Procedure Duration(days) max": Maxdays,
-#        "Certificate": Certificate}
-df = pd.DataFrame({
-    'Hotels': hotel_name
-})
+# df = pd.DataFrame({
+#     'Hotels': hotel_name
+# })
 # df = pd.DataFrame(dic)
-df.to_csv("hotel.csv", mode="a")
-driver.quit()
+# df.to_csv("hotel.csv", mode="a")
+# driver.quit()
