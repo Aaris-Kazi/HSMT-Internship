@@ -5,6 +5,7 @@ import time
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+PATH = 'chromedriver.exe'
 #  Get Hotels data from around each hospital
 # Get : Hospital Name ,hotel name , Star rating , Distance from Hotel ,room count ,price range , link
 # Check hotels for each hospital from
@@ -12,39 +13,32 @@ options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-ssl-errors')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-# options = webdriver.ChromeOptions()
 options.add_argument('--disable-blink-features=AutomationControlled')
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+driver = webdriver.Chrome(PATH, options=options)
+# driver = webdriver.Chrome(PATH)
 
 NA = "NaN"
-Name = [];Speciality = []; Address = []
-Landline = [];Mobile = []; email = []
-Website = []; TotalBeds = []; ICUBeds = []
-Operatingrooms = []; Intlarr = []
-Procedure = []; MaxCost = [];MinCost = []
-Mindays = [];Maxdays = [];Certificate = []
+Name = []
 hotel_name, star, distance, room, price = [], [], [], [], []
 hosp = []
 temp = ''
-# url = 'https://www.indiahealthcare.org/?speciality=Diabetes%20%26%20Endocrinology'
 url = 'https://www.indiahealthcare.org/?speciality=None/'
-# url = 'https://www.indiahealthcare.org/?speciality=Urology'
-# url = 'https://www.indiahealthcare.org/?speciality=Dermatology'
 driver.get(url)
 element = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="statesearch"]'))
         )
 element.click()
-# //*[@id="statesearch"]/option[14]
 states = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, '//*[@id="statesearch"]/option[14]'))
+            EC.element_to_be_clickable((By.XPATH, '//*[@id="statesearch"]/option[23]'))
         )
 states.click()
+time.sleep(10)
 def fetch():
     i = 0
     names = driver.find_elements_by_class_name("hospital-name")
     for name in names:
         driver.execute_script("arguments[0].click();", name)
+        # name.click()
         # print(name.text)
         temp = name.text
         i+=1
@@ -69,11 +63,11 @@ fetch()
 #             EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination"]/li[2]'))
 #         )
 # page.click()
-# df = pd.DataFrame({
-#     'Hospitals': hosp,
-#     'Hotels': hotel_name
-# })
-# df = pd.DataFrame(dic)
-# df.to_csv("hotel.csv", mode="a", header= False)
 time.sleep(3)
 driver.quit()
+df = pd.DataFrame({
+    'Hospitals': hosp,
+    'Hotels': hotel_name
+})
+# # df = pd.DataFrame(dic)
+df.to_csv("hotels_hosp.csv", mode="a", header= False)
