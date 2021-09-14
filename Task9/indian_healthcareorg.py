@@ -31,22 +31,15 @@ url = 'https://www.indiahealthcare.org/?speciality=None/'
 # url = 'https://www.indiahealthcare.org/?speciality=Urology'
 # url = 'https://www.indiahealthcare.org/?speciality=Dermatology'
 driver.get(url)
-# search = driver.find_element_by_class_name('search-btn')
-# search.click()
-# state = driver.find_element_by_class_name('dropdown_selection')
 element = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="statesearch"]'))
         )
-# driver.execute_script("arguments[0].click();", element)
 element.click()
-# states = driver.find_element_by_xpath('//*[@id="statesearch"]/option[2]')
 # //*[@id="statesearch"]/option[14]
 states = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="statesearch"]/option[14]'))
         )
 states.click()
-# //*[@id="statesearch"]/option[2]
-
 def fetch():
     i = 0
     names = driver.find_elements_by_class_name("hospital-name")
@@ -71,28 +64,11 @@ def fetch():
         time.sleep(1)
         driver.switch_to.window(driver.window_handles[0])
         # driver.current_window_handle
-# fetch()
-# for j in range(2, 4):
-
-#     fetch()
-    
-        
-#     next = driver.find_element_by_xpath('//*[@id="pagination"]/li['+str(j)+']/a')
-#     next.click()
-# //*[@id="pagination"]/li[3]///*[@id="pagination"]/li[3]/a
-# //*[@id="pagination"]/li[2]/a
-# pages = driver.find_elements_by_class_name('page-link')
-# pages = driver.find_element_by_xpath('//*[@id="pagination"]/li[2]')
-# pages.click()
-# pages = driver.find_elements_by_class_name('page-link')
-page = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination"]/li[2]'))
-        )
-page.click( )
-# driver.execute_script("arguments[0].click();", pages)//*[@id="pagination"]/li[2]
-# for page in pages:
-#     print(page.text)
-    # driver.execute_script("arguments[0].click();", pages)
+fetch()
+# page = WebDriverWait(driver, 10).until(
+#             EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination"]/li[2]'))
+#         )
+# page.click()
 # df = pd.DataFrame({
 #     'Hospitals': hosp,
 #     'Hotels': hotel_name
