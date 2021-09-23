@@ -1,0 +1,263 @@
+,Hospital,Hotels,Ratings,KM Range,Room Count,Price USD,Price INR
+0,"Rainbow Hospital For Women & Children, Hyderabad",Taj Krishna,5,0.5,261,106,8000
+1,"Rainbow Hospital For Women & Children, Hyderabad",Minerva Grand,2,0.5,55,33,2500
+2,"L. V. Prasad Eye Institute (LVPEI), Hyderabad",Ellaa Hotels,5,9.0,117,53,4000
+3,"L. V. Prasad Eye Institute (LVPEI), Hyderabad",Holiday Inn Express Hotel & Suites Hyderabad Gachibowli,3,2.0,232,40,3000
+4,KAMALAKAR HOSPITAL,SHELTON,3,4.0,100,100,6000
+5,"Continental Hospitals, Hyderabad",Holiday Inn Express Hotel & Suites Hyderabad Gachibowli,3,2.0,232,53,4000
+6,"Continental Hospitals, Hyderabad",Radisson Hyderabad Hitec City,5,5.0,202,49,3700
+7,Medicover Hospitals India,IBIS Hotel,3,0.1,50,33,2500
+8,Medicover Hospitals India,FabHotel Prowell Crown,3,0.1,55,28,2100
+9,Mahatma Gandhi Cancer Hospital & Research Institute,Four Points,5,5.0,50,- Not Available -,5000
+10,Mahatma Gandhi Cancer Hospital & Research Institute,Treebo Trend MVP Grand,3,0.2,50,26,2000
+11,Neoretina Eyecare Institute,Hotel Marjan International,3,1.0,25,21,1500
+12,Neoretina Eyecare Institute,Hotel Srujana Stay Inn,3,1.0,23,21,1500
+13,"Star Hospitals, Hyderabad",Hotel Comfotel,3,1.0,52,50,3500
+14,"Star Hospitals, Hyderabad",Minerva Grand Banjara Hills,3,0.65,46,42,3000
+15,Omni Hospitals,Hotel Sitara Grand,2,1.5,25,31,2200
+16,Omni Hospitals,Zibe Hyderabad By GRT Hotels,3,1.9,39,41,2900
+17,"APOLLO HOSPITALS, KAKINADA (Samudra Health Care Enterprises Ltd.) (A Unit Of Apollo Hospitals Enterprises Limited)",Hotel Arka,2,0.5,22,24,1700
+18,"APOLLO HOSPITALS, KAKINADA (Samudra Health Care Enterprises Ltd.) (A Unit Of Apollo Hospitals Enterprises Limited)",Hotel Jaya Residency,3,0.7,17,31,2200
+19,"APOLLO HOSPITALS, KAKINADA (Samudra Health Care Enterprises Ltd.) (A Unit Of Apollo Hospitals Enterprises Limited)",Hotel Arka,2,0.5,22,24,1700
+20,"APOLLO HOSPITALS, KAKINADA (Samudra Health Care Enterprises Ltd.) (A Unit Of Apollo Hospitals Enterprises Limited)",Hotel Jaya Residency,3,0.7,17,31,2200
+21,Down Town Hospital Ltd,Novotel: 5 Star Hotel,5,1.0,118,100,7000
+22,Down Town Hospital Ltd,Ginger Guwahati,3,3.0,60,57,4000
+23,Jeevak Heart Hospital & Research Institute,Lemon Tree Premier,5,3.0,105,- Not Available -,6000
+24,"Paras HMRI Hospital, Patna",Hotel AVR,3,0.5,50,111.5,8000
+25,"Paras HMRI Hospital, Patna",Hotel Krrish Clarks Inn,3,2.0,47,33,2500
+26,Max Super Specialty Hospital Mohali,Glades Hotel,3,3.0,35,33,2500
+27,Max Super Specialty Hospital Mohali,Capital O 1731 Mohali,3,4.0,40,11,830
+28,Grewal Eye Institute,TAJ CHANDIGARH,5,1.0,- Not Available -,- Not Available -,- Not Available -
+29,Grewal Eye Institute,Hotel Icon,4,1.0,18,56,4000
+30,"Dharamshila Hospital And Research Centre, Delhi",OYO 10667 Prakash Guest House,2,1.0,35,24,1800
+31,"Dharamshila Hospital And Research Centre, Delhi",Hotel Noida Darbar A Banquet Hotel,2,1.0,43,33,2500
+32,FORTIS FLT.LT.RAJAN DHALL HOSPITAL,The Paradise,3,0.3,38,33,2500
+33,FORTIS FLT.LT.RAJAN DHALL HOSPITAL,Hotel Mulberry,2,1.0,46,24,1800
+34,"Rockland Hospital, Qutab",THE TAJ MAHAL,5,10.0,274,225,- Not Available -
+35,"Rockland Hospital, Qutab",LE MERIDIEN NEW DELHI,5,12.0,358,106,8000
+36,"Max Super Speciality Hospitals, Patparganj",LE MERIDIEN NEW DELHI,5,12.0,360,106,8000
+37,"Max Super Speciality Hospitals, Patparganj",THE ROYAL PLAZA,4,10.0,420,80,6000
+38,"Indian Spinal Injuries Centre, Delhi",GRAND SARTAJ,3,6.0,38,33,2500
+39,"Indian Spinal Injuries Centre, Delhi",CLARION COLLECTION,4,7.0,60,66,5000
+40,Pushpawati Singhania Research Institute,Hilton Garden Inn,4,1.0,78,106,8000
+41,Pushpawati Singhania Research Institute,GRAND SARTAJ,3,4.0,38,53,4000
+42,"Primus Super Speciality Hospital, Delhi",Ashok Hotel,5,2.0,550,79,6000
+43,"Primus Super Speciality Hospital, Delhi",Samrat Hotel,5,2.0,255,66,5000
+44,"Maharishi Ayurveda Hospital, Delhi",HOTEL ASIAN INTERNATIONAL,3,10.0,40,53,4000
+45,"Maharishi Ayurveda Hospital, Delhi",HOTEL THE MANOR,5,4.0,20,92,7000
+46,Kukreja Hospital,Hotel Holiday Inn Mayur Vihar,4,3.2,189,60-92,4500-7000
+47,"ISIS Hospital IVF & Multi Speciality Centre, Delhi",CLARION COLLECTION,4,9.0,60,66,5000
+48,"ISIS Hospital IVF & Multi Speciality Centre, Delhi",THE LALIT NEW DELHI?,5,9.8,461,105,8000
+49,"Wockhardt Hospitals, Goa",La Ben Resort,2,15.0,45,33,2500
+50,"Wockhardt Hospitals, Goa",Taj Exotica,2,12.0,30,33,2500
+51,Manipal Hospitals Goa,Ocean Suite,5,1.9,24,24,1700
+52,Manipal Hospitals Goa,OYO 11443 Exotic Studio,1,1.5,19,20,1400
+53,"Wockhardt Hospital, Surat",OYO 1877 Hotel Krishna,3,0.3,45,33,2500
+54,"Wockhardt Hospital, Surat",Hotel Krishna,3,0.2,26,33,2500
+55,"Zydus Hospital, Anand",Neejanand Luxurious Resort & Spa,4,8.0,100,66,5000
+56,"Zydus Hospital, Anand",Hotel Rama Residency,2,3.0,30,20,1500
+57,"Narayana Multi Speciality Hospital, Ahmedabad",Park Plaza Ahmedabad Ellis Bridge,4,4.0,75,52,4000
+58,"Narayana Multi Speciality Hospital, Ahmedabad",Four Points By Sheraton,5,4.0,104,66,5000
+59,"Apollo Hospitals International, Ahmedabad",Park Plaza Ahmedabad Ellis Bridge,4,0.35,75,93,7000
+60,"Apollo Hospitals International, Ahmedabad",Four Points By Sheraton,5,2.0,104,66,5000
+61,STERLING HOSPITAL,Treatotel Hotel,3,0.2,30,20,1500
+62,STERLING HOSPITAL,Collection O 321 Vastrapur Ahmedabad,2,2.0,50,13,1000
+63,"Shalby Multispeciality Hospital, Surat",Surat Marriott Hotel,5,5.5,80,100,5000
+64,"Shalby Multispeciality Hospital, Surat",OYO 3975 Golden Star Country Club,3,2.7,30,13,1000
+65,Shalby Limited Vapi,Hotel Orange Vapi,3,1.5,50,33,2500
+66,KRISHNA SHALBY HOSPITAL,Hotel New Pathik,3,2.6,30,20,1500
+67,KRISHNA SHALBY HOSPITAL,Hotel Skyland,3,4.0,35,27,2030
+68,Krishna Shalby Hospital,Hotel New Pathik,3,2.6,30,20,1500
+69,Krishna Shalby Hospital,Hotel Skyland,3,4.0,35,27,2030
+70,Shalby Hospital S. G Highway,Crowne Plaza Ahmedabad City Centre,5,1.0,200,160,12000
+71,Shalby Hospital S. G Highway,Hotel Shrimad Residency,1,0.2,18,16,1200
+72,"Rockland Hospital, Manesar",Heritage Village Manesar,4,0.7,160,79,6000
+73,"Rockland Hospital, Manesar",Hyatt Regency Gurgaon,4,5.0,200,66,5000
+74,Dr SanjayKalra'S Multispeciality Dental Clinic,Hotel Cove,3,0.5,50,40,3000
+75,"Aarogya Hospital, Haryana",OYO 3161 Hotel Ashoka The Grand,3,0.6,40,27,2000
+76,"Aarogya Hospital, Haryana",OYO 69735 Hotel CRA,1,1.0,25,13,1000
+77,Alchemist Hospital Panchkula,Hotel Maharani,2,2.5,34,22,1680
+78,Alchemist Hospital Panchkula,OYO 8277 Tricity Relax Inn,3,2.7,45,10,750
+79,VK Neurocare And Trauma Research Hospital,Hotel Moon,2,0.5,30,20,1500
+80,VK Neurocare And Trauma Research Hospital,Hotel Jaishree,3,0.8,20,17,2000
+81,Fortis Healthcare Limited,OYO X 325 Hotel Prakash Habitat Gurgaon,4,0.7,18,21,1800
+82,Fortis Healthcare Limited,Clarens Hotel,4,1.0,32,71,5100
+83,Artemis Hospital,Hilton Garden Inn Gurgaon Baani Square,5,2.5,50,57,4330
+84,Artemis Hospital,Keys Lite,4,3.0,55,31,2350
+85,MEDANTA- THE MEDICITY,Park Inn,3,3.0,40,42,3000
+86,MEDANTA- THE MEDICITY,Platinum Palace,4,0.4,40,10,700
+87,Mayom Hospital,OYO 357 Amazing Suites Hotel Gurgaon,3,5.0,20,14,1050
+88,Mayom Hospital,Excel Inn,3,0.14,25,27,2020
+89,PREM SUKH HOSPITAL AND DIALYSIS CENTRE,North Star Residency,2,0.7,20,13,900
+90,PREM SUKH HOSPITAL AND DIALYSIS CENTRE,Lakshmi Guest House,2,0.4,30,9,650
+91,"Sparsh Hospitals, Bangalore",Iris Hotel,4,4.0,60,66,5000
+92,"Sparsh Hospitals, Bangalore",Radha Regent Bengaluru,4,3.0,100,66,5000
+93,Soukya International Holistic Health Centre,Four Points By Sheraton Bengaluru Whitefield,4,6.0,129,59,4500
+94,Soukya International Holistic Health Centre,"Royal Orchid Suites,",3,7.0,88,46,3500
+95,"Sahaya-Dr. Mathai'S Holistic Integrative Medical Centre, Bangalore",The Richmond Hotel,3,3.0,44,40,3000
+96,"Sahaya-Dr. Mathai'S Holistic Integrative Medical Centre, Bangalore",The President Hotel,3,3.0,46,53,4000
+97,"Narayana Nethralaya, Rajaji Nagar Bangalore",Fortune Select Jp Cosmos,5,7.0,134,66,5000
+98,"Narayana Nethralaya, Rajaji Nagar Bangalore",The Lalit Ashok Bangalore,5,6.0,184,79,6000
+99,"Narayana Nethralaya, Bommasandra Bangalore",Gardeenia Comfortes Suites,3,2.0,142,33,2500
+100,"Narayana Nethralaya, Bommasandra Bangalore",Lords Plaza,3,6.0,70,33,2500
+101,"Narayana Health City, Bangalore",Radha Regent Bengaluru,4,5.0,100,66,5000
+102,"Narayana Health City, Bangalore",Crowne Plaza Bengaluru Electronics City,5,5.0,250,92,7000
+103,"Manipal Hospital, Bangalore",The Krishna Nibbana,3,8.0,35,40,3000
+104,"Manipal Hospital, Bangalore",Melange Astrisn Apartment Hotel,4,4.0,100,40,3000
+105,"M. S. Ramaiah Memorial Hospital, Bangalore",Sheraton Bangalore Hotel At Brigade Gateway,5,3.0,130,120,9000
+106,"Columbia Asia Hospitals, Bangalore",Parijatha Gateway,3,0.6,78,66,5000
+107,"Columbia Asia Hospitals, Bangalore",Sheraton Grand Bangalore Hotel At Brigade Gateway,5,0.2,110,92,700
+108,"Bangalore Baptist Hospital, Bangalore",The Basil Hotel,3,7.0,54,22,1700
+109,"Bangalore Baptist Hospital, Bangalore",Hotel Basant Residency,3,8.0,48,26,2000
+110,Santevita Hospital,Hotel Pearl,2,0.5,23,18,1300
+111,Santevita Hospital,"Le Lac Sarovar Portico, Ranchi",4,0.4,51,56,4000
+112,"Valiyath Institute Of Medical Sciences, Kollam",Hotel Comfort Regency,2,1.0,35,20,1500
+113,"Valiyath Institute Of Medical Sciences, Kollam",Hotel Grande Muscat,2,1.0,43,20,1500
+114,"Sunrise Hospital, Cochin",Trident Cochin,5,4.0,85,60,4500
+115,"Sunrise Hospital, Cochin",The Gateway Hotel,5,5.0,108,57,4300
+116,"Sreepathy Ayurveda Hospital ,Cochin",Orchid Residency,2,2.0,36,29,2200
+117,"Sreepathy Ayurveda Hospital ,Cochin",Trident Cochin,5,4.0,85,59,4500
+118,"Sreedhareeyam Ayurvedic Eye Hospital & Research Centre, Cochin",Trident Cochin,5,4.0,85,59,4500
+119,"Sreedhareeyam Ayurvedic Eye Hospital & Research Centre, Cochin",The Gateway Hotel,5,5.0,108,55,4200
+120,"Somatheeram Ayurveda Resort, Trivandrum",Nemom Railway Station,5,10.0,200,132,10000
+121,"Somatheeram Ayurveda Resort, Trivandrum",Hotel Chaithram,3,7.0,88,20,1500
+122,"Rajah Island, Thrissur",Hotel Elite International,2,10.0,108,8,600
+123,"Rajah Healthy Acres, Palakkad",Trichur Towers,4,- Not Available -,1200,16,1200
+124,"Rajah Healthy Acres, Palakkad",Lulu International Convention Center And Garden Hotels,4,- Not Available -,11,53,4000
+125,"Rajah Beach, Thrissur",Dass Continental,3,2.0,29,25,1900
+126,"Rajah Beach, Thrissur",Casino Hotels Limited,3,1.0,51,21,1600
+127,PVA Ayurvedic Multi Specialty Nursing Home,Royal Omars,2,9.0,34,20,1500
+128,PVA Ayurvedic Multi Specialty Nursing Home,Mascot Beach Resort,2,9.0,45,28,2100
+129,"Punarvana Ayurveda Hospital, Cochin",Trident Cochin,5,3.0,45,66,5000
+130,"Punarvana Ayurveda Hospital, Cochin",The Gateway Hotel,5,4.0,108,54,4100
+131,SHALBY HOSPITAL JABALPUR,VIJAN MAHAL,5,15.0,100,67,5000
+132,SHALBY HOSPITAL JABALPUR,Hotel Yuvraj Grand,1,0.4,30,35,2640
+133,Shalby Hospital Indore,Capital O 14448 Hotel Sapphire Star Indore,3,0.85,40,17,1280
+134,Shalby Hospital Indore,OYO 3892 Hotel Divya Palace Indore,3,0.8,35,14,1060
+135,J.K. HOSPITAL & L.N. MEDICAL COLLEGE,CLARKS INNFAIRYLAND,4,3.0,40,80,6000
+136,J.K. HOSPITAL & L.N. MEDICAL COLLEGE,OYO 8183 Hotel Sandal Wood Bhopal,3,1.5,20,13,980
+137,Greater Kailash Hospitals Pvt Ltd,Hotel Radisson Blu,5,3.0,200,- Not Available -,- Not Available -
+138,Greater Kailash Hospitals Pvt Ltd,Sayaji,5,4.0,250,- Not Available -,- Not Available -
+139,Medanta Hospital Indore (A Unit Of GHPL),OYO 5253 Hotel Orange Lily,2,0.28,60,17,1200
+140,Medanta Hospital Indore (A Unit Of GHPL),OYO Flagship 137 Vijay Nagar Hotel Indore,2,0.4,28,28,2000
+141,Silverline Hospital And Research Institute Bhopal,Shagun Hotel,3,0.7,32,15,1110
+142,Silverline Hospital And Research Institute Bhopal,FabHotel President,3,1.0,20,17,1260
+143,SMART CITY HOSPITAL,Hotel Lake View Ashok,3,2.5,45,75,5500
+144,SMART CITY HOSPITAL,The Bhopal Grande,3,2.3,20,34,2500
+145,Navodaya Cancer Hospital,OYO 8561 Hotel Sun Park,2,0.6,16,16,1180
+146,Navodaya Cancer Hospital,Hotel Kakul,2,0.4,7,45,3330
+147,City Hospital & Research Centre,Narmada Jacksons,4,4.0,68,56,4000
+148,City Hospital & Research Centre,Hotel Rishi Regency,3,1.0,38,28,2000
+149,NEW PANDEY HOSPITAL,Hotel Shyam Ji,3,1.0,11,17,1200
+150,NEW PANDEY HOSPITAL,Hotel Stay Inn,3,1.0,8,21,1500
+151,"Wockhardt Hospitals, Nashik",Hotel SM Imperial,1,1.0,45,40,3000
+152,"Wockhardt Hospitals, Nashik",Hotel Rama Heritage,3,1.0,39,53,4000
+153,"Wockhardt Hospitals, Nashik",Hotel SM Imperial,1,1.0,45,40,3000
+154,"Wockhardt Hospitals, Nashik",Hotel Rama Heritage,3,1.0,39,53,4000
+155,"Wockhardt Hospitals, Nagpur",OYO 890 Seven Suites Apartment Hotel Nagpur,3,3.0,43,33,2500
+156,"Tata Memorial Centre, Mumbai",Ramada Plaza Palm Grove,5,3.0,115,120,9000
+157,"Tata Memorial Centre, Mumbai",Novotel Mumbai Juhu Beach,5,2.0,203,120,9000
+158,Seven Hills Healthcare,Ramada Plaza Palm Grove,5,4.0,115,119,9000
+159,Seven Hills Healthcare,Novotel Mumbai Juhu Beach,5,4.0,203,119,9000
+160,"KEM Hospital, Pune",Sun N Sand Pune,5,4.0,139,58,4400
+161,"KEM Hospital, Pune",Le Meridien Hotel Pune,5,2.7,177,66,5000
+162,"Kaya Skin Clinic, Mumbai",Ramada Plaza Palm Grove,5,2.0,120,120,9000
+163,"Kaya Skin Clinic, Mumbai",Novotel Mumbai Juhu Beach,5,3.0,203,105,9000
+164,"Jupiter Hospital, Mumbai",Ramada Plaza Palm Grove,5,32.0,115,120,9000
+165,"Jupiter Hospital, Mumbai",Seasonal Tastes,5,20.0,270,106,8000
+166,"Jaslok Hospital & Research Centre, Mumbai",The Leela Kempinski Mumbai,5,3.0,400,105,8000
+167,"Jaslok Hospital & Research Centre, Mumbai",Novotel Mumbai Juhu Beach,5,3.0,209,120,9000
+168,"BNH HCG Cancer Centre, Mumbai",The Classique Club,5,1.9,220,132,10000
+169,"BNH HCG Cancer Centre, Mumbai",Hotel Alfa International,3,0.6,50,27,2000
+170,"L V PRASAD EYE INSTITUTE, BHUBANESWAR",Collection O 50292 Soveet Residency Sishu Vihar,2,1.6,20,8,600
+171,"L V PRASAD EYE INSTITUTE, BHUBANESWAR",FabExpress Royal Guest House,1,3.0,100,28,2100
+172,Shanti Memorial Hospital Private Limited,PRAMOD CONVENTION CENTRE,3,3.0,60,70,5000
+173,Shanti Memorial Hospital Private Limited,Shree Jagannath Inn,4,2.0,20,14,1040
+174,BRLIFE Kalinga Hospital,Suryansh Hotels And Resorts,3,0.35,38,28,2000
+175,BRLIFE Kalinga Hospital,Ashique Guest House,2,1.0,11,38,2700
+176,Satguru Partap Singh Apollo Hospitals,Hotel Riyasat,4,0.2,80,40,3000
+177,Satguru Partap Singh Apollo Hospitals,Chevron Klassik,3,1.5,120,33,2500
+178,"Fortis Hospital, Mohali",Hotel Cama,4,3.0,20,53,4000
+179,SHALBY LTD,OYO 24423 Hotel Royal,2,3.0,35,12,900
+180,SHALBY LTD,OYO 14324 Hotel Towns Pride,1,1.0,40,8,600
+181,Hartej Hospital Amritsar,MK HOTEL,5,1.0,100,66,5000
+182,Hartej Hospital Amritsar,Hotel Best Western Merrion,4,2.0,100,62,4000
+183,Parmar Hospital,Hotel City Heart Ropar Rupnagar,3,1.5,10,20,1400
+184,Parmar Hospital,Hotel Sahil Palace,3,1.5,24,28,2000
+185,Jain Nursing & Maternity Home,HEY DAY HOTEL,3,0.1,30,34,2500
+186,Jain Nursing & Maternity Home,Hotel Olive Garden,3,1.5,15,27,2000
+187,NANDA HOSPITAL,SG Resorts,3,4.0,30,25,1850
+188,NANDA HOSPITAL,Hotel Ishan Villa,3,4.0,24,32,2370
+189,Narad Multispeciality Hospital & Trauma Center,Hotel Maharaja Palace,2,1.0,32,30,2220
+190,Narad Multispeciality Hospital & Trauma Center,Hotel Batra Continental,3,2.3,40,30,2220
+191,Pulse Hospital,Hyatt Regency Amritsar,5,1.0,196,98,7000
+192,Pulse Hospital,OYO 22678 Hotel Unique House,2,1.0,14,18,1300
+193,DR RAJAN EYE CARE HOSPITAL,Regenta Central Klassik,4,18.0,71,70,5000
+194,DR RAJAN EYE CARE HOSPITAL,Capital O 49883 Hotel Sutlej Classic,3,5.0,120,12,1200
+195,"Heart & General Hospital, Jaipur",ITC Rajputana,5,1.3,220,171,13000
+196,"Heart & General Hospital, Jaipur",Park Prime,5,1.9,83,105,8000
+197,SHALBY HOSPITAL JAIPUR,HOTEL SAROVAR PORTIGO,4,1.0,100,50,3500
+198,SHALBY HOSPITAL JAIPUR,HILTON,5,4.0,150,80,6000
+199,SHALBY HOSPITAL JAIPUR,HOTEL HOLIDAY INN,4,5.0,150,70,5000
+200,Goyal Hospital & Research Centre Pvt.Ltd,Hotel Nasrani Plaza,3,0.75,30,11,770
+201,Goyal Hospital & Research Centre Pvt.Ltd,Hotel City View,2,1.9,32,8,550
+202,Manipal Multi Specialty Hospital,Whispering Palms Hotel,3,0.4,30,29,2100
+203,Manipal Multi Specialty Hospital,Hotel Orient Palace,3,1.0,16,17,1200
+204,S R KALLA MEMORIAL GASTRO AND GENERAL HOSPITAL,Hotel Shree Residency,2,0.3,13,12,850
+205,S R KALLA MEMORIAL GASTRO AND GENERAL HOSPITAL,OYO 10282 Hotel Rish,2,1.0,19,12,850
+206,Bhagwan Mahaveer Cancer Hospital & Research Centre,"Red Fox Hotel, Jaipur",3,0.3,233,42,3000
+207,Bhagwan Mahaveer Cancer Hospital & Research Centre,Hotel Soni Space,2,1.7,8,14,1000
+208,Santokba Durlabhji Memorial Hospital,SPOT ON 64472 Milan Guest House,2,0.4,12,14,1000
+209,Santokba Durlabhji Memorial Hospital,Treebo Trend Woodsvilla Suites - Bapu Nagar Jaipur,3,1.0,18,18,1300
+210,Soni Medicare Limited,Grand Uniara A Heritage Hotel,2,0.6,36,80,5700
+211,Soni Medicare Limited,Hotel Narain Niwas Palace,4,0.7,44,190,13570
+212,"Bhandari Hospital & Research Centre, Jaipur",OYO 871 Hotel Jaipur City,3,0.5,14,28,2000
+213,"Bhandari Hospital & Research Centre, Jaipur",Ganesham Rooms,3,0.5,12,17,1200
+214,Apex Hospitals Pvt. Ltd.,Hotel Apple 9 Jaipur,3,0.4,28,11,780
+215,Apex Hospitals Pvt. Ltd.,OYO 10325 Hotel Grand Harshal,3,0.4,20,15,1110
+216,"Vijaya Group Of Hospitals, Chennai",Hilton Chennai,4,5.0,204,113,8500
+217,"Vijaya Group Of Hospitals, Chennai",Sheraton Park Hotel And Towers,5,6.0,287,106,8000
+218,"The Madras Medical Mission, Chennai",Hotel Chennai Deluxe,2,4.0,42,33,2500
+219,"The Madras Medical Mission, Chennai",Hotel Radha Regent Chennai,4,5.0,91,46,3500
+220,"Sri Ramachandra Medical Centre, Chennai",Le Royal Meridien Chennai,5,9.0,106,100,7500
+221,"Sri Ramachandra Medical Centre, Chennai",My Fortune,5,18.0,90,79,6000
+222,"Omega Hospitals, Hyderabad",Amogh Boutique Hotel,3,0.1,80,33,2500
+223,"Omega Hospitals, Hyderabad",Fortune Park Vallabha,4,1.0,70,66,5000
+224,KG Hospital,Hotel Marian International,2,0.2,34,16,1200
+225,KG Hospital,OYO 14814 Hotel Vinayak,2,0.5,40,26,2000
+226,"HCG Cancer Centre, Chennai",Radisson Blu City Centre,5,2.0,162,105,8000
+227,"HCG Cancer Centre, Chennai",Ramada Chennai Egmore,4,2.0,120,66,5000
+228,"Fortis Malar Hospital, Chennai",The Raintree Hotel,5,3.0,105,79,6000
+229,"Fortis Malar Hospital, Chennai",Hotel Raj Palace Sundar,3,1.0,40,34,2600
+230,"Dr. Mehta'S Hospital, Chennai",Radisson Blu Hotel Chennai City Centre,5,3.0,162,79,6000
+231,"Dr. Mehta'S Hospital, Chennai",The Aruna Chennai,4,1.0,91,40,3000
+232,Mozocare,Radission Blu,4,1.2,250,120,10000
+233,"Pushpanjali Crosslay Hospital, Ghaziabad",Radisson Blu Hotel Ghaziabad,4,0.8,147,66,5000
+234,"Pushpanjali Crosslay Hospital, Ghaziabad",Lemon Tree Hotel,4,3.0,55,53,4000
+235,"Heritage Hospitals, Varanasi",Gateway Hotel Ganges,5,8.0,130,66,5000
+236,"Heritage Hospitals, Varanasi",Ramada Plaza Jhv,5,7.0,120,92,7000
+237,"Fortis Hospital, Noida",OYO 9073 RN 32,2,1.0,14,7.6,560
+238,"Fortis Hospital, Noida",OYO 11521 Livin Hub,2,1.0,31,5.38,410
+239,Mimhans Neurosciences Hospital,Harmony Inn,3,1.0,28,"50,70,100,130","3500, 4500,6500,8500 + GST"
+240,Mimhans Neurosciences Hospital,Hotel Sagar,2,1.0,26,15,1140
+241,Prakash Netra Kendr,FabExpress SBG Inn,3,0.7,22,13,1000
+242,Prakash Netra Kendr,Elite Guest House,3,0.7,35,13,1000
+243,NAVIN HOSPITAL,Angel Residency,2,2.6,27,56,4000
+244,NAVIN HOSPITAL,Grand Heritage Resort,2,2.2,40,78,5600
+245,NEO HOSPITAL,OYO 641 Hotel Nityas Residency,2,1.8,26,14,1000
+246,NEO HOSPITAL,FabExpress Ivy Inn,3,5.0,18,19,1300
+247,GLOBUS HOSPITAL,The President Hotel,3,2.0,26,28,2000
+248,GLOBUS HOSPITAL,DNG THE GRAND HOTEL,4,2.7,30,56,4000
+249,Apollo Gleneagles Hospitals,Hyatt Regency,5,1.0,233,185,14000
+250,Apollo Gleneagles Hospitals,"Senses Hotel, Kolkata",4,6.0,104,66,5000
+251,Medica Hospitals,OYO 11530 Maa Tara Guest House,2,1.0,40,10,750
+252,Medica Hospitals,Moments,3,1.0,25,13,980
+253,AMRI HOSPITALS -DHAKURIA,OYO 15617 ABI'S INN,2,0.1,22,38,2850
+254,NEOTIA GETWEL HEALTHCARE CENTRE,CHAS Swastik Regency,3,4.0,18,21,1500
+255,NEOTIA GETWEL HEALTHCARE CENTRE,Hotel Debjyoti,3,3.0,32,18,1300
+256,"Narayana Superspeciality Hospital, Howrah",OYO 49604 Narayana Hotel,1,1.0,160,20,1400
+257,"Narayana Superspeciality Hospital, Howrah",OYO Flagship 39318 Mourigram Near Andul Rd,1,1.7,120,17,1200
+258,Rabindranath Tagore International Institute Of Cardiac Sciences,Kolkata Balaji Guest House,1,0.35,8,12,860
+259,Rabindranath Tagore International Institute Of Cardiac Sciences,"Om Shanti Guest House, Mukundapur",1,0.4,16,11,780
+260,Medica Hospitals,Moments,3,1.0,8,28,2000
+261,Medica Hospitals,Kabita Guest House,2,1.0,32,28,2000
