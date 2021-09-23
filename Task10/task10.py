@@ -24,9 +24,9 @@ for tab in tabs:
     # tab.click()
     time.sleep(1)
     driver.execute_script("arguments[0].click();", tab)
-    driver.switch_to.window(driver.window_handles[i])
+    driver.switch_to.window(driver.window_handles[1])
     time.sleep(1)
-    if i> 1:
+    if i >= 1:
         driver.close()
     time.sleep(1)
     driver.switch_to.window(driver.window_handles[0])
