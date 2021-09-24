@@ -17,7 +17,7 @@ options.add_argument('--ignore-ssl-errors')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('--disable-blink-features=AutomationControlled')
 driver = webdriver.Chrome(PATH, options=options)
-url = 'https://www.healthgrades.com/hospital-directory/ca-california/san-jose_2'
+url = 'https://www.healthgrades.com/hospital-directory/ca-california/san-diego'
 driver.get(url)
 # _2YLqr
 i = 0
@@ -40,7 +40,7 @@ for tab in tabs:
     payment_mode.append('CASH')
     country.append('USA')
     state.append('California')
-    city.append('San Jose')
+    city.append('San Diego')
     time.sleep(1)
     if i >= 1:
         driver.close()
@@ -61,4 +61,5 @@ df = pd.DataFrame({
     "STATE": state,
     "CITY": city,
 })
-df.to_csv('sanjose.csv', mode= 'a', header= False)
+# df.to_csv('san-diego.csv', mode= 'a', header= False)
+df.to_csv('san-diego.csv')
