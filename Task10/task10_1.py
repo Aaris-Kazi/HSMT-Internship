@@ -18,7 +18,7 @@ options.add_argument('--ignore-ssl-errors')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('--disable-blink-features=AutomationControlled')
 driver = webdriver.Chrome(PATH, options=options)
-url = 'https://www.healthgrades.com/hospital-directory/ca-california/san-jose'
+url = 'https://www.healthgrades.com/hospital-directory/ca-california/san-jose_2'
 driver.get(url)
 tabs = driver.find_elements_by_class_name('_2YLqr')
 i = 0
@@ -39,29 +39,6 @@ for tab in tabs:
         voting.append(vote)
     except Exception:
         voting.append('NaN')
-    # try:
-    #     vote = driver.find_elements_by_class_name('per-wrapper')
-    #     if len(vote) == 0:
-    #         k = 0
-    #         for j in vote:
-    #             if k ==0:
-    #                 v= j.find_element_by_tag_name('text').text
-    #                 if len(v) == 0:
-    #                     print('Empty')
-    #                 else:
-    #                     print(v)
-    #                     voting.append(v)
-    #             elif k>1:
-    #                 k=0
-    #             else:
-    #                 pass
-    #             k+=1
-    #     else:
-    #         print('Not Found')
-    #         voting.append('NaN')
-        
-    # except Exception:
-    #     print('Empty')
     name.append(h)
     location.append(add)
     phone_number.append(no)
@@ -94,5 +71,5 @@ df = pd.DataFrame({
     "CITY": city,
     "Links": links
 })
-# df.to_csv('san-diego.csv', mode= 'a', header= False)
-df.to_csv('san-diego1.csv')
+df.to_csv('san-diego1.csv', mode= 'a', header= False)
+# df.to_csv('san-diego1.csv')
