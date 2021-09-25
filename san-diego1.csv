@@ -1,41 +1,73 @@
 ,Hospital,Phone Number,Location,Voting,Verified,Payment Mode,COUNTRY,STATE,CITY,Links
-0,Sharp Memorial Hospital,(858) 939-3400,"7901 Frost St
-San Diego, CA 92123",84%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/sharp-memorial-hospital-hgstcf418d46050100
-1,Sharp Memorial Hospital,(858) 939-3400,"7901 Frost St
-San Diego, CA 92123",84%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/sharp-mary-birch-hospital-for-women-and-newborns-hgst7e618d46050722
-2,Sharp Mary Birch Hospital for Women and Newborns,(858) 939-3400,"3003 Health Center Dr
-San Diego, CA 92123",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/kaiser-permanente-zion-medical-center-hgst64618d46050515
-3,Kaiser Permanente Zion Medical Center,(619) 528-5000,"4647 Zion Ave
-San Diego, CA 92120",80%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/rady-childrens-hospital-san-diego-hgch05a18d46053303
-4,Rady Children's Hospital San Diego,(858) 576-1700,"3020 Childrens Way
-San Diego, CA 92123",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/ucsd-medical-center-hillcrest-hgstab418d46050025
-5,UCSD Medical Center - Hillcrest,(619) 543-6222,"200 W Arbor Dr
-San Diego, CA 92103",80%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/scripps-mercy-hospital-san-diego-hgst5e418d46050077
-6,Scripps Mercy Hospital San Diego,(619) 294-8111,"4077 5th Ave
-San Diego, CA 92103",66%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/alvarado-hospital-medical-center-hgstdb95c4aa050757
-7,Alvarado Hospital Medical Center,(619) 287-3270,"6655 Alvarado Rd
-San Diego, CA 92120",64%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/scripps-memorial-hospital-la-jolla-hgstdb518d46050324
-8,Scripps Memorial Hospital La Jolla,(858) 626-4123,"9888 Genesee Ave
-La Jolla, CA 92037",82%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/scripps-green-hospital-hgstb0618d46050424
-9,Scripps Green Hospital,(858) 455-9100,"10666 N Torrey Pines Rd
-La Jolla, CA 92037",84%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/sharp-coronado-hospital-hgst57518d46050234
-10,Sharp Coronado Hospital,(619) 522-3600,"250 Prospect Pl
-Coronado, CA 92118",82%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/paradise-valley-hospital-hgst9b418d46050024
-11,Paradise Valley Hospital,(619) 470-4321,"2400 E 4th St
-National City, CA 91950",68%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/sharp-grossmont-hospital-hgstbb418d46050026
-12,Sharp Grossmont Hospital,(619) 740-6000,"5555 Grossmont Center Dr
-La Mesa, CA 91942",72%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/scripps-mercy-hospital-chula-vista-hgst29518d46050270
-13,Scripps Mercy Hospital Chula Vista,(619) 691-7000,"435 H St
-Chula Vista, CA 91910",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/palomar-medical-center-poway-hgstc9618d46050636
-14,Palomar Medical Center Poway,(858) 480-6174,"15615 Pomerado Rd
-Poway, CA 92064",69%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/sharp-chula-vista-medical-center-hgstb6518d46050222
-15,Sharp Chula Vista Medical Center,(619) 502-5800,"751 Medical Center Ct
-Chula Vista, CA 91911",75%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/scripps-memorial-hospital-encinitas-hgst24618d46050503
-16,Scripps Memorial Hospital Encinitas,(760) 633-6501,"354 Santa Fe Dr
-Encinitas, CA 92024",77%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/palomar-medical-center-escondido-hgsta0518d46050115
-17,Palomar Medical Center Escondido,(442) 281-5000,"2185 Citracado Pkwy
-Escondido, CA 92029",77%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/palomar-medical-center-downtown-escondido-hgst13b3b3f1hg0632
-18,Palomar Medical Center Downtown Escondido,(442) 274-0603,"555 E Valley Pkwy
-Escondido, CA 92025",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/tri-city-medical-center-hgst61518d46050128
-19,Tri-city Medical Center,(760) 724-8411,"4002 Vista Way
-Oceanside, CA 92056",61%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-southern/temecula-valley-hospital-hgstad030ea0050775
+0,Santa Clara Valley Medical Center,(408) 885-5000,"751 S Bascom Ave
+San Jose, CA 95128",63%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/santa-clara-valley-medical-center-hgst3c418d46050038
+1,Santa Clara Valley Medical Center,(408) 885-5000,"751 S Bascom Ave
+San Jose, CA 95128",63%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/regional-medical-center-of-san-jose-hgst31518d46050125
+2,Regional Medical Center Of San Jose,(408) 259-5000,"225 N Jackson Ave
+San Jose, CA 95116",63%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/oconnor-hospital-hgst03518d46050153
+3,O'Connor Hospital,(408) 947-2500,"2105 Forest Ave
+San Jose, CA 95128",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/kaiser-permanente-santa-clara-medical-center-hgstfd418d46050071
+4,Kaiser Permanente Santa Clara Medical Center,(408) 236-6400,"700 Lawrence Expy
+Santa Clara, CA 95051",77%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/el-camino-health-los-gatos-campus-hgstb4518d46050188
+5,El Camino Health - Los Gatos Campus,(408) 378-6131,"815 Pollard Rd
+Los Gatos, CA 95032",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/good-samaritan-hospital-hgst8e518d46050380
+6,Good Samaritan Hospital,(408) 559-2011,"2425 Samaritan Dr
+San Jose, CA 95124",71%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/kaiser-permanente-san-jose-medical-center-hgst78618d46050604
+7,Kaiser Permanente San Jose Medical Center,(408) 972-3000,"250 Hospital Pkwy
+San Jose, CA 95119",67%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/mountain-view-campus-el-camino-hospital-hgst1b518d46050308
+8,Mountain View Campus (El Camino Hospital),(650) 940-7000,"2500 Grant Rd
+Mountain View, CA 94040",82%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/stanford-health-care-hgst91618d46050441
+9,Stanford Health Care,(650) 723-4000,"300 Pasteur Dr
+Stanford, CA 94305",82%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/washington-hospital-hgst35518d46050195
+10,Washington Hospital,(510) 797-1111,"2000 Mowry Ave
+Fremont, CA 94538",75%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-mateo/kaiser-permanente-redwood-city-medical-center-hgst55618d46050541
+11,Kaiser Permanente Redwood City Medical Center,(650) 299-2000,"1100 Veterans Blvd
+Redwood City, CA 94063",83%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-mateo/sequoia-hospital-hgst55518d46050197
+12,Sequoia Hospital,(650) 410-7514,"170 Alameda De Las Pulgas
+Redwood City, CA 94062",85%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-mateo/mills-health-center-hgstda518d46050302
+13,Mills Health Center,(650) 696-5400,"100 S San Mateo Dr
+San Mateo, CA 94401",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/stanford-health-care-valleycare-hgste9518d46050283
+14,Stanford Health Care Valleycare,(925) 847-3000,"5555 W Las Positas Blvd
+Pleasanton, CA 94588",77%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/eden-medical-center-hgst93618d46050488
+15,Eden Medical Center,(510) 537-1234,"20103 Lake Chabot Rd
+Castro Valley, CA 94546",76%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-northern/dominican-hospital-hgstd7518d46050242
+16,Dominican Hospital,(831) 204-6616,"1555 Soquel Dr
+Santa Cruz, CA 95065",68%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-mateo/mills-peninsula-medical-center-hgstaa418d46050007
+17,Mills-peninsula Medical Center,(650) 696-5400,"1501 Trousdale Dr
+Burlingame, CA 94010",82%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/kaiser-permanente-san-leandro-medical-center-hgstcd546ace050777
+18,Kaiser Permanente San Leandro Medical Center,(510) 454-1000,"2500 Merced St
+San Leandro, CA 94577",73%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-mateo/kaiser-permanente-south-san-francisco-medical-center-hgsted418d46050070
+19,Kaiser Permanente South San Francisco Medical Center,(650) 742-2000,"1200 El Camino Real
+South San Francisco, CA 94080",74%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-northern/sutter-maternity-and-surgery-center-of-santa-cruz-hgstfd618d46050714
+20,Sutter Maternity and Surgery Center Of Santa Cruz,(831) 477-2200,"2900 Chanticleer Ave
+Santa Cruz, CA 95065",91%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/alta-bates-summit-medical-center-hgst8c418d46050043
+21,Alta Bates Summit Medical Center,(510) 655-4000,"350 Hawthorne Ave
+Oakland, CA 94609",71%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-santa-clara/lucile-packard-childrens-hospital-stanford-hgch25a18d46053305
+22,Lucile Packard Children's Hospital Stanford,(650) 497-8000,"725 Welch Rd
+Palo Alto, CA 94304",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-mateo/menlo-park-surgical-hospital-hgst8e2274a8050754
+23,Menlo Park Surgical Hospital,(650) 324-8500,"570 Willow Rd
+Menlo Park, CA 94025",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/alta-bates-summit-medical-center-alta-bates-campus-hgstfa518d46050305
+24,Alta Bates Summit Medical Center - Alta Bates Campus,(510) 204-4444,"2450 Ashby Ave
+Berkeley, CA 94705",63%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/john-muir-health-walnut-creek-medical-center-hgst64518d46050180
+25,"John Muir Health, Walnut Creek Medical Center",(925) 939-3000,"1601 Ygnacio Valley Rd
+Walnut Creek, CA 94598",83%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-francisco/ucsf-medical-center-at-parnassus-hgst32618d46050454
+26,UCSF Medical Center at Parnassus,(415) 476-1000,"400 Parnassus Ave
+San Francisco, CA 94143",86%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-francisco/california-pacific-medical-center-van-ness-campus-hgstbc418d46050047
+27,California Pacific Medical Center - Van Ness Campus,(415) 600-6000,"1101 Van Ness Ave
+San Francisco, CA 94109",76%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-francisco/st-marys-medical-center-hgst62618d46050457
+28,St. Mary's Medical Center,(415) 668-1000,"450 Stanyan St
+San Francisco, CA 94117",65%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-francisco/kaiser-permanente-san-francisco-medical-center-hgst4e418d46050076
+29,Kaiser Permanente San Francisco Medical Center,(415) 833-2000,"2425 Geary Blvd
+San Francisco, CA 94115",72%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-francisco/ucsf-medical-center-at-mount-zion-hgst0c418d46050033
+30,UCSF Medical Center at Mount Zion,(415) 567-6600,"1600 Divisadero St
+San Francisco, CA 94115",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-northern/sutter-tracy-community-hospital-hgst6b518d46050313
+31,Sutter Tracy Community Hospital,(209) 835-1500,"1420 N Tracy Blvd
+Tracy, CA 95376",69%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-francisco/california-pacific-medical-center-california-campus-hgste5518d46050208
+32,California Pacific Medical Center - California Campus,(415) 600-6000,"3700 California St
+San Francisco, CA 94118",NaN,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/kaiser-permanente-antioch-medical-center-hgstbf63f8d1050760
+33,Kaiser Permanente Antioch Medical Center,(925) 813-6500,"4501 Sand Creek Rd
+Antioch, CA 94531",79%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/kaiser-permanente-oakland-medical-center-hgst3e418d46050075
+34,Kaiser Permanente Oakland Medical Center,(510) 752-1000,"3600 Broadway
+Oakland, CA 94611",74%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-san-francisco/saint-francis-memorial-hospital-hgstf2518d46050152
+35,Saint Francis Memorial Hospital,(415) 582-4265,"900 Hyde St
+San Francisco, CA 94109",67%,YES,CASH,USA,California,San Diego,https://www.healthgrades.com/hospital-directory/california-ca-oakland-berkeley/highland-hospital-hgstcb518d46050320
