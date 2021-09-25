@@ -18,7 +18,7 @@ options.add_argument('--ignore-ssl-errors')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('--disable-blink-features=AutomationControlled')
 driver = webdriver.Chrome(PATH, options=options)
-url = 'https://www.healthgrades.com/hospital-directory/ca-california/san-jose_2'
+url = 'https://www.healthgrades.com/hospital-directory/tx-texas/dallas_3'
 driver.get(url)
 tabs = driver.find_elements_by_class_name('_2YLqr')
 i = 0
@@ -26,7 +26,6 @@ tabs = driver.find_elements_by_class_name('_2YLqr')
 for tab in tabs:
     link = tab.get_attribute('href')
     print(link)
-    # tab.click()//*[@id="root"]/div/main/div[1]/div/div[2]/div[2]/svg/g/text//*[@id="root"]/div/main/div[1]/div/div[2]/div[2]/svg/g/text/text()[1]
     time.sleep(2)
     driver.execute_script("arguments[0].click();", tab)
     driver.switch_to.window(driver.window_handles[1])
@@ -47,8 +46,8 @@ for tab in tabs:
     verified.append('YES')
     payment_mode.append('CASH')
     country.append('USA')
-    state.append('California')
-    city.append('San Diego')
+    state.append('Texas')
+    city.append('Dallas')
     time.sleep(1)
     if i >= 1:
         driver.close()
@@ -71,5 +70,5 @@ df = pd.DataFrame({
     "CITY": city,
     "Links": links
 })
-df.to_csv('san-diego1.csv', mode= 'a', header= False)
-# df.to_csv('san-diego1.csv')
+df.to_csv('dallas.csv', mode= 'a', header= False)
+# df.to_csv('dallas.csv')
