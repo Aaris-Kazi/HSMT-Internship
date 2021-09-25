@@ -18,7 +18,7 @@ options.add_argument('--ignore-ssl-errors')
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('--disable-blink-features=AutomationControlled')
 driver = webdriver.Chrome(PATH, options=options)
-url = 'https://www.healthgrades.com/hospital-directory/ca-california/san-diego'
+url = 'https://www.healthgrades.com/hospital-directory/ca-california/san-jose'
 driver.get(url)
 tabs = driver.find_elements_by_class_name('_2YLqr')
 i = 0
@@ -34,32 +34,39 @@ for tab in tabs:
     add = driver.find_element_by_xpath('//*[@id="root"]/div/main/aside/div/div/div[1]/div[1]/div').text
     no = driver.find_element_by_xpath('//*[@id="root"]/div/main/aside/div/div/div[1]/div[1]/p[2]').text
     try:
-        vote = driver.find_elements_by_class_name('per-wrapper')
-        if len(vote) == 0:
-            k = 0
-            for j in vote:
-                if k ==0:
-                    v= j.find_element_by_tag_name('text').text
-                    if len(v) == 0:
-                        print('Empty')
-                    else:
-                        # print(v)
-                        voting.append(v)
-                elif k>1:
-                    k=0
-                else:
-                    pass
-                k+=1
-        else:
-            print('Not Found')
-            voting.append('NaN')
-        
+        vote = driver.find_element_by_class_name('coin').text
+        print(vote)
+        voting.append(vote)
     except Exception:
-        print('Empty')
+        voting.append('NaN')
+    # try:
+    #     vote = driver.find_elements_by_class_name('per-wrapper')
+    #     if len(vote) == 0:
+    #         k = 0
+    #         for j in vote:
+    #             if k ==0:
+    #                 v= j.find_element_by_tag_name('text').text
+    #                 if len(v) == 0:
+    #                     print('Empty')
+    #                 else:
+    #                     print(v)
+    #                     voting.append(v)
+    #             elif k>1:
+    #                 k=0
+    #             else:
+    #                 pass
+    #             k+=1
+    #     else:
+    #         print('Not Found')
+    #         voting.append('NaN')
+        
+    # except Exception:
+    #     print('Empty')
     name.append(h)
     location.append(add)
     phone_number.append(no)
     links.append(link)
+    
     verified.append('YES')
     payment_mode.append('CASH')
     country.append('USA')
@@ -74,3 +81,18 @@ for tab in tabs:
 time.sleep(3)
 driver.quit()
 driver.quit()
+print(len(name),len(phone_number),len(location),len(voting),len(verified),len(payment_mode), len(links))
+df = pd.DataFrame({
+    "Hospital": name,
+    "Phone Number": phone_number,
+    "Location": location,
+    "Voting": voting,
+    "Verified": verified,
+    "Payment Mode": payment_mode,
+    "COUNTRY": country,
+    "STATE": state,
+    "CITY": city,
+    "Links": links
+})
+# df.to_csv('san-diego.csv', mode= 'a', header= False)
+df.to_csv('san-diego1.csv')
