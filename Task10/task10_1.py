@@ -10,6 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 name, location, phone_number, verified, voting, country, state, city, payment_mode= [],[],[],[],[],[],[],[],[]
+links = []
 PATH = 'chromedriver.exe'
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
@@ -23,7 +24,8 @@ tabs = driver.find_elements_by_class_name('_2YLqr')
 i = 0
 tabs = driver.find_elements_by_class_name('_2YLqr')
 for tab in tabs:
-    tab.get_attribute('href')
+    link = tab.get_attribute('href')
+    print(link)
     # tab.click()//*[@id="root"]/div/main/div[1]/div/div[2]/div[2]/svg/g/text//*[@id="root"]/div/main/div[1]/div/div[2]/div[2]/svg/g/text/text()[1]
     time.sleep(2)
     driver.execute_script("arguments[0].click();", tab)
@@ -31,20 +33,39 @@ for tab in tabs:
     h = driver.find_element_by_xpath('//*[@id="root"]/div/main/div[1]/div/div[2]/h1').text
     add = driver.find_element_by_xpath('//*[@id="root"]/div/main/aside/div/div/div[1]/div[1]/div').text
     no = driver.find_element_by_xpath('//*[@id="root"]/div/main/aside/div/div/div[1]/div[1]/p[2]').text
-    vote = driver.find_elements_by_class_name('per-wrapper')
-    for j in vote:
-        v= j.find_element_by_tag_name('text').text
-        print(v)
-    # name.append(h)
-    # location.append(add)
-    # phone_number.append(no)
-    # # voting.append(vote)
-    # verified.append('YES')
-    # payment_mode.append('CASH')
-    # country.append('USA')
-    # state.append('California')
-    # city.append('San Diego')
-    # time.sleep(1)
+    try:
+        vote = driver.find_elements_by_class_name('per-wrapper')
+        if len(vote) == 0:
+            k = 0
+            for j in vote:
+                if k ==0:
+                    v= j.find_element_by_tag_name('text').text
+                    if len(v) == 0:
+                        print('Empty')
+                    else:
+                        # print(v)
+                        voting.append(v)
+                elif k>1:
+                    k=0
+                else:
+                    pass
+                k+=1
+        else:
+            print('Not Found')
+            voting.append('NaN')
+        
+    except Exception:
+        print('Empty')
+    name.append(h)
+    location.append(add)
+    phone_number.append(no)
+    links.append(link)
+    verified.append('YES')
+    payment_mode.append('CASH')
+    country.append('USA')
+    state.append('California')
+    city.append('San Diego')
+    time.sleep(1)
     if i >= 1:
         driver.close()
     time.sleep(1)
