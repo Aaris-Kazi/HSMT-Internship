@@ -68,15 +68,23 @@ def automate():
         print('strong')
         print(k.text)
     time.sleep(3)
-    options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+    options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item.ss-survey-text-size--sm.ss-survey-line-height--tight.ss-survey-text-weight--regular.ss-text-color--question.ss-border-color--answer.ss-highlight-answer.ss-chat-rounded-border.ss-chat-multiple-choice__item')
+    op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
     for j in options1:
         print(j.text)
-    options1[1].click()
+    time.sleep(2)
+    driver.execute_script("arguments[0].click();", options1[1])
+    driver.execute_script("arguments[0].click();", op1)
+    # options1[1].click()
+    # op1.click()
+
+    # options1[2].click()
     time.sleep(1)
     question = driver.find_elements_by_tag_name('strong')
     for k in question:
         print('strong')
         print(k.text)
+    
 automate()
 time.sleep(5)
 driver.close()
