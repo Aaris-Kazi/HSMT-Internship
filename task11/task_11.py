@@ -101,5 +101,27 @@ for j in options1:
     print(j.text)
 driver.execute_script("arguments[0].click();", op1)
 time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+
+time.sleep(5)
 driver.close()
 driver.quit()
