@@ -51,7 +51,7 @@ def automate():
     options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
     for j in options1:
         print(j.text)
-    options1[2].click()
+    options1[1].click()
     time.sleep(1)
     question = driver.find_elements_by_tag_name('strong')
     for k in question:
@@ -77,6 +77,24 @@ def automate():
     driver.execute_script("arguments[0].click();", op1)
     # options1[1].click()
     # op1.click()
+# //*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[2]
+    # options1[2].click()
+    time.sleep(1)
+    question = driver.find_elements_by_tag_name('strong')
+    for k in question:
+        print('strong')
+        print(k.text)
+    time.sleep(3)
+    options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+    op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+    # //*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]
+    for j in options1:
+        print(j.text)
+    time.sleep(2)
+    driver.execute_script("arguments[0].click();", options1[1])
+    driver.execute_script("arguments[0].click();", op1)
+    # options1[1].click()
+    op1.click()
 
     # options1[2].click()
     time.sleep(1)
@@ -84,7 +102,24 @@ def automate():
     for k in question:
         print('strong')
         print(k.text)
-    
+
+    time.sleep(3)
+
+    # op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+    # for j in options1:
+    #     print(j.text)
+    # time.sleep(2)
+    # driver.execute_script("arguments[0].click();", options1[1])
+    # driver.execute_script("arguments[0].click();", op1)
+    # # options1[1].click()
+    # op1.click()
+
+    # # options1[2].click()
+    # time.sleep(1)
+    # question = driver.find_elements_by_tag_name('strong')
+    # for k in question:
+    #     print('strong')
+    #     print(k.text)
 automate()
 time.sleep(5)
 driver.close()
