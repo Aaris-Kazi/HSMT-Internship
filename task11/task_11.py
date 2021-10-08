@@ -30,16 +30,76 @@ for k in question:
     print(k.text)
 options1[1].click()
 
-time.sleep(3)
-options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item.ss-survey-text-size--sm.ss-survey-line-height--tight.ss-survey-text-weight--regular.ss-text-color--question.ss-border-color--answer.ss-highlight-answer.ss-chat-rounded-border.ss-chat-multiple-choice__item')
+time.sleep(5)
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
 for j in options1:
     print(j.text)
-# question = driver.find_elements_by_tag_name('strong')
-# for k in question:
-#     print('strong')
-#     print(k.text)
-# options1[1].click()
+options1[1].click()
+time.sleep(1)
+next = driver.find_element_by_class_name('surveysparrow-chat__btn-default.surveysparrow-chat__btn--primary.ss-background-color--answer.ss-text-color--answer-invert.ss-border-color--answer.ss-survey-text-size--sm.ss-survey-line-height--tight.ss-survey-text-weight--medium')
+next.click()
+time.sleep(5)
 
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+options1[1].click()
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
+time.sleep(5)
+
+op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
+options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+for j in options1:
+    print(j.text)
+driver.execute_script("arguments[0].click();", op1)
 time.sleep(5)
 driver.close()
 driver.quit()
