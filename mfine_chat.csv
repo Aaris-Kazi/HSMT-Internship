@@ -1,0 +1,13 @@
+,Disease,Questions,Options
+0,COVID-19,How old are you?,"Below 18 years, 19 - 30 years, 31 - 40 years, 41 - 50 years, 51 - 60 years, Above 60 years, "
+1,COVID-19,Are you experiencing any of the following problems?,"Tiredness, Throat Pain, Fever, Loss of Taste/Smell, Cough, Breathing Difficulty, Muscle Pain, Loose stools, None of the above, "
+2,COVID-19,How long have you had throat pain?,"1 - 3 days, 3- 5 days, 5 -7 days, 7 - 14 days, "
+3,COVID-19,How bad is your throat pain?,"Mild, Moderate, Severe, No pain, "
+4,COVID-19,"Have you travelled in the last 15 days, inside or outside India? ","Yes, No, "
+5,COVID-19,Have you come in contact with anyone who travelled in the last 15 days?,"Yes, No, Don't Know, "
+6,COVID-19,"Have you met or been in close contact with someone who has had fever, cough, sneezing or throat irritation in the past 15 days? ","Yes, No, Don't Know, "
+7,COVID-19,Have you come in contact with anybody who has been diagnosed with COVID-19 in the last 15 days? ,"Yes, No, Don't Know, "
+8,COVID-19,"Have you been to any gatherings of more than 50 people - like theatre, shopping mall, marriage, community prayers in the last 15 days?","Yes, No, "
+9,COVID-19, Do you wear a mask while you are outside or when in close contact with others?,"Yes, No, Sometimes, "
+10,COVID-19,Have you been diagnosed with Covid-19?,"currently Covid +ve, Recovered from Covid, Don't Know, Not yet tested, No, "
+11,COVID-19,", can you tell me if you have been vaccinated?","Yes - both doses, Yes - but only 1 dose, No, "
