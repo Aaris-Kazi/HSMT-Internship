@@ -1,13 +1,19 @@
-,Options
-0,"Below 18 years, 19 - 30 years, 31 - 40 years, 41 - 50 years, 51 - 60 years, Above 60 years, "
-1,"Tiredness, Throat Pain, Fever, Loss of Taste/Smell, Cough, Breathing Difficulty, Muscle Pain, Loose stools, None of the above, "
-2,"1 - 3 days, 3- 5 days, 5 -7 days, 7 - 14 days, "
-3,"Mild, Moderate, Severe, No pain, "
-4,"Yes, No, "
-5,"Yes, No, Don't Know, "
-6,"Yes, No, Don't Know, "
-7,"Yes, No, Don't Know, "
-8,"Yes, No, "
-9,"Yes, No, Sometimes, "
-10,"currently Covid +ve, Recovered from Covid, Don't Know, Not yet tested, No, "
-11,"Yes - both doses, Yes - but only 1 dose, No, "
+,Questions
+0,Please let me know how old you are. 
+1,And you are...
+2,Do you relate with any of these symptoms?
+3,"As you are experiencing a 'pounding heartbeat' even at rest, what was your recorded heart rate?"
+4,Have you had your cholesterol level tested recently?
+5,Did your report mention any of these abnormalities? 
+6,Do you have high blood pressure?
+7,Are you on medication for high blood pressure?
+8,Do you smoke or are constantly exposed to passive smoke for the last 12 months?
+9,Have you smoked 100 or more cigarettes in your lifetime?
+10,Do you drink alcohol?
+11,Have you experienced any of the following conditions?
+12,"Has anyone in your family (parents, siblings, children) experienced the following diseases or procedures?"
+13,Do you have diabetes?
+14,Have you ever had any of the following cardiac tests?
+15,Were these tests found to be normal?
+16,Which one of the following statements best describes your usual activity?
+17,"How many servings of red meat do you eat per month? (Eg: mutton, steak, ham, bacon, sausage, etc.) "

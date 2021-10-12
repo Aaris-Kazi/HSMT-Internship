@@ -20,12 +20,17 @@ driver.execute_script("window.scrollTo(0, 10)")
 continue_button = driver.find_element_by_class_name('surveysparrow-chat__btn-default.surveysparrow-chat__btn--primary.ss-background-color--answer.ss-text-color--answer-invert.ss-border-color--answer.ss-survey-text-size--sm.ss-survey-line-height--tight.ss-survey-text-weight--medium')
 continue_button.click()
 def automate():
+    ques, multiple = [], []
     global i
     
     time.sleep(5)
     options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     time.sleep(2)
@@ -33,8 +38,12 @@ def automate():
     time.sleep(5)
 # 1
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     options1[1].click()
@@ -42,8 +51,12 @@ def automate():
 # 2
  
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     options1[1].click()
@@ -54,8 +67,12 @@ def automate():
 
     time.sleep(5)
     options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     options1[2].click()
@@ -63,8 +80,12 @@ def automate():
 # 4
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]/p')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -73,8 +94,12 @@ def automate():
     # //*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
     options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -88,8 +113,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -98,8 +127,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -108,8 +141,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -118,8 +155,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -128,8 +169,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -138,8 +183,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -151,8 +200,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -164,8 +217,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -174,8 +231,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -187,8 +248,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -197,8 +262,12 @@ def automate():
 
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]/div[2]')
     options1 = driver.find_elements_by_class_name('ss-chat__item-title')
+    texting = ''
     for j in options1:
         print(j.text)
+        temp = j.text
+        texting = texting+temp+', '
+    multiple.append(texting)
     i= i+1
     print(i)
     op1.click()
@@ -211,14 +280,19 @@ def automate():
         print(j.text)
         temp = j.text
         texting = texting+temp+', '
-    # multiple.append(texting)
+    multiple.append(texting)
     i= i+1
     print(i)
     question = driver.find_elements_by_tag_name('strong')
     for k in question:
-        # ques.append(k.text)
+        ques.append(k.text)
         print(k.text)
     op1.click()
+    df = pd.DataFrame({
+    # "Questions": ques,
+    "Options": multiple,
+    })
+    df.to_csv('chat.csv')
 automate()
 time.sleep(5)
 driver.close()

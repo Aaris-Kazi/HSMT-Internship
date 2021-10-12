@@ -1,13 +1,19 @@
-,Questions
-0,How old are you?
-1,Are you experiencing any of the following problems?
-2,How long have you had throat pain?
-3,How bad is your throat pain?
-4,"Have you travelled in the last 15 days, inside or outside India? "
-5,Have you come in contact with anyone who travelled in the last 15 days?
-6,"Have you met or been in close contact with someone who has had fever, cough, sneezing or throat irritation in the past 15 days? "
-7,Have you come in contact with anybody who has been diagnosed with COVID-19 in the last 15 days? 
-8,"Have you been to any gatherings of more than 50 people - like theatre, shopping mall, marriage, community prayers in the last 15 days?"
-9, Do you wear a mask while you are outside or when in close contact with others?
-10,Have you been diagnosed with Covid-19?
-11,", can you tell me if you have been vaccinated?"
+,Options
+0,"20 years & less, 21 to 30 years, 31 to 40 years, 41 to 50 years, 51 to 60 years, Above 60 years, "
+1,"Male, Female, Other, "
+2,"Pounding heart beat at rest, Episodes of giddiness/fainting, Breathlessness while walking, Chest Pain, None of the above, "
+3,"Below 80, 80 -100, 101 - 140, Above 140, "
+4,"Yes, No, "
+5,"High LDL, Low HDL, High Total Cholesterol, High Triglycerides, Cholesterol levels controlled with medication, None of the above, "
+6,"Yes, I have high BP, No, I've always had normal BP, I have low BP, I don't know, "
+7,"Yes, No, "
+8,"Yes, No, More than 1 year since I quit, "
+9,"Yes, No, "
+10,"Occasionally, Everyday( > 2 drinks/day), I don't drink, "
+11,"Heart attack, Stroke, None of the above, "
+12,"Heart attack, Stroke, Angioplasty/ Stent placement, None of the above, "
+13,"Yes, No, "
+14,"ECG, Echocardiogram(Echo), Labs (Troponin I/Troponin T), None of the above, "
+15,"Yes, they were normal., No, they were abnormal., "
+16,"20-30mins/day high intensity, 30-40mins/day mild intensity, I workout only few days/week, I don't workout, "
+17,"10 or more servings, 1 to 9 servings, I don't eat red meat, "
