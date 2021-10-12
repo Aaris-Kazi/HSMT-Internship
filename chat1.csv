@@ -1,19 +1,17 @@
 ,Questions
-0,Please let me know how old you are. 
-1,And you are...
-2,Do you relate with any of these symptoms?
-3,"As you are experiencing a 'pounding heartbeat' even at rest, what was your recorded heart rate?"
-4,Have you had your cholesterol level tested recently?
-5,Did your report mention any of these abnormalities? 
-6,Do you have high blood pressure?
-7,Are you on medication for high blood pressure?
-8,Do you smoke or are constantly exposed to passive smoke for the last 12 months?
-9,Have you smoked 100 or more cigarettes in your lifetime?
-10,Do you drink alcohol?
-11,Have you experienced any of the following conditions?
-12,"Has anyone in your family (parents, siblings, children) experienced the following diseases or procedures?"
-13,Do you have diabetes?
-14,Have you ever had any of the following cardiac tests?
-15,Were these tests found to be normal?
-16,Which one of the following statements best describes your usual activity?
-17,"How many servings of red meat do you eat per month? (Eg: mutton, steak, ham, bacon, sausage, etc.) "
+0,I would like to know a bit more about you.😊How old are you? 
+1,You are...
+2,Have you ever been found to have high blood sugar either from a blood test or during a visit to the doctor?
+3,Did your report point out any of these as abnormalities?
+4,How much was your last measured HBA1c?
+5,"As you said your blood sugars were found to be high, have you been diagnosed with.."
+6,Have you experienced the following? 
+7,Do you experience excessive tiredness along with the above-selected symptoms?
+8,Are these symptoms familiar to you? 
+9,Have you observed any of these skin conditions?
+10,"Coming to family history, have any of your blood relatives (siblings, parents..) been diagnosed with diabetes?"
+11,Do you generally...
+12,"Say, how would you describe yourself?"
+13,Do you set aside time for exercise?
+14,Tell me a little about your lifestyle.
+15,Have you been diagnosed with any of these conditions?
