@@ -5,7 +5,7 @@ df = pd.read_csv('task11\chat3.csv')
 # print(df['Options'])
 q, o, d= [],[],[]
 for i, j in zip(df['Questions'], df['Options']):
-    d.append('Heart Attack')
+    d.append('Diabetes')
     q.append(i)
     o.append(j)
 jf = pd.DataFrame({
