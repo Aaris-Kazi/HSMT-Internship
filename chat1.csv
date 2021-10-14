@@ -1,15 +1,30 @@
 ,Questions
-0,Nice to meet you. I would like to know a bit more about you.😊 Pick your age bracket.
-1," Say, how would you describe yourself?" 
-2,"Tell me, do you face any of these symptoms?" 
-3,Since when are you experiencing irregular periods?
-4, How often do you get your periods?
-5,Can you tell me if you've noticed bleeding anytime other than your period?
-6,"Can you tell me, how long does your period last?"
-7,"Hey, do you face painful periods? Would you say your period pains are..."
-8,Clots! Do you notice any during your period?
-9,Have you been advised and have gotten abdomen ultrasound done anytime?
-10,"Tell me, did your ultrasound report say something like this?"
-11,Do you notice any of these right before your period begins? 
-12,Let me know a little about your lifestyle! 
-13,"Before you go, tell me if you've been diagnosed with these. "
+0,"Tell me, how old are you?"
+1,self-examination
+2,effective self-check
+3,videos
+4,What irregularities in the size of the breast(s) did you notice?
+5,breast swelling
+6,pain
+7,Which of the following nipple issues did you notice?
+8,"What kind of discharge, from the nipple, did you see?"
+9,Did you notice any of these changes in your breast's skin?
+10,"During the breast exam, did you feel any lumps or nodules within your breasts?"
+11,Are you noticing these lumps and nodules during the menstrual cycle or pregnancy?
+12,Do you identify yourself as...
+13,At what age did your periods start?
+14,Have you ever been pregnant?
+15,How many children do you have?
+16,How old were you when you had your first child?
+17,And how long did you breastfeed your child/children?
+18,"Have you ever used oral contraceptives or been on hormonal therapy for any reason? (Eg: Premarin, Diane 35, Yasmin, or Femilon, Hormonal therapy for menopausal symptoms, etc.)"
+19,annual mammogram
+20,Have you ever had a mammogram?
+21,Was your mammogram normal?
+22,Have you undergone surgery to remove your uterus or your ovaries?
+23,"Have you ever had any of the following breast procedures: needle/ breast biopsy, removal of a lump/ entire breast, or radiation therapy?"
+24,blood relatives
+25,increases your risk
+26,Has anyone in your immediate family been diagnosed with breast cancer or ovarian cancer
+27,?
+28, Do you consume alcohol?
