@@ -190,10 +190,7 @@ def automate():
     print(i)
     # options1[2].click()
     op1.click()
-    time.sleep(7)
 # 10
-
-    
     time.sleep(9)
 
  
@@ -212,6 +209,7 @@ def automate():
     # next = driver.find_element_by_class_name('surveysparrow-chat__btn-default.surveysparrow-chat__btn--primary.ss-background-color--answer.ss-text-color--answer-invert.ss-border-color--answer.ss-survey-text-size--sm.ss-survey-line-height--tight.ss-survey-text-weight--medium')
     # next.click()
 # 11
+    time.sleep(9)
     options1 = driver.find_elements_by_class_name('ss-chat-multiple-choice__item')
     op1 = driver.find_element_by_xpath('//*[@id="surveysparrow-chat__scroll-container"]/div/div[4]/div[1]/div[1]')
     
