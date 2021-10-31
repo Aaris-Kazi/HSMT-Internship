@@ -35,8 +35,9 @@ for tags in data:
     soup1 = bs4.BeautifulSoup(response.content)
 
     data1 = soup1.find("section", attrs={"id":"basics"})
-    # data1 = soup1.find_all("span")
+    data1 = data1.find_all("p")
     print(data1)
+    print(type(data1))
 #     data2 = data1[0].find_all('dd')
 #     Type.append("Pharmacy")
 #     Name.append(data2[0].text)
@@ -48,6 +49,9 @@ for tags in data:
 #     Currency.append(data2[6].text)
 #     Timings.append(data2[7].text)
 #     Mode_of_Payment.append(data2[8].text)
+    if 0xFF == ord('q'):
+        break
+    break
 print("Site Scrapped Succesfully")
 
 # dataset = {
