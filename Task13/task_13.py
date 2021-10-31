@@ -1,21 +1,15 @@
-
-
-
 import bs4
 import pandas as pd
 import requests
 
-Type=[]
-Name=[]
-Phone=[]
-Address=[]
-City=[]
-State=[]
-Pincode=[]
-Country=[]
-Timings=[]
-Mode_of_Payment=[]
-Currency=[]
+drug_name = []
+brand_name = []
+generic_name = []
+route = []
+dates = []
+drug_type = []
+dosage_form = []
+drug_facts = []
 Link_to_profile=[]
 
 url = "https://www.healthgrades.com/drugs/a-z/alpha-a"
@@ -37,20 +31,13 @@ for tags in data:
     data1 = soup1.find("section", attrs={"id":"basics"})
     data1 = data1.find_all("p")
     print(data1)
-    print(type(data1))
-#     data2 = data1[0].find_all('dd')
-#     Type.append("Pharmacy")
-#     Name.append(data2[0].text)
-#     Address.append(data2[1].text)
-#     City.append(data2[2].text)
-#     Pincode.append(data2[3].text)
-#     Country.append(data2[4].text)
-#     Phone.append(data2[5].text)
-#     Currency.append(data2[6].text)
-#     Timings.append(data2[7].text)
-#     Mode_of_Payment.append(data2[8].text)
-    if 0xFF == ord('q'):
-        break
+    print(len(data1))
+    brand_name.append(data1[0])
+    generic_name.append(data1[1])
+    drug_type.append(data1[2])
+    route.append(data1[3])
+    dosage_form.append(data1[4])
+    dates.append(data1[5])
     break
 print("Site Scrapped Succesfully")
 
