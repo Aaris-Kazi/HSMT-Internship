@@ -10,6 +10,7 @@ dates = []
 drug_type = []
 dosage_form = []
 drug_facts = []
+data_all = []
 Link_to_profile=[]
 
 url = "https://www.healthgrades.com/drugs/a-z/alpha-a"
@@ -29,32 +30,35 @@ for tags in data:
     soup1 = bs4.BeautifulSoup(response.content)
 
     data1 = soup1.find("section", attrs={"id":"basics"})
-    data1 = data1.find_all("p")
-    print(data1)
-    print(len(data1))
-    brand_name.append(data1[0])
-    generic_name.append(data1[1])
-    drug_type.append(data1[2])
-    route.append(data1[3])
-    dosage_form.append(data1[4])
-    dates.append(data1[5])
-    break
+    data2 = soup1.find_all("td")
+    if '/drugs/' in l:
+        data1 = data1.find_all("p")
+        # print(data1)
+        # print(data2)
+        print(len(data1))
+        data_all.append(data1)
+        # brand_name.append(data1[0])
+        # generic_name.append(data1[1])
+        # drug_type.append(data1[2])
+        # route.append(data1[3])
+        # dosage_form.append(data1[4])
+        # dates.append(data1[5])
+    else:
+        pass
+        # drug_facts.append(data2[0])
+        # break
 print("Site Scrapped Succesfully")
 
-# dataset = {
-#     "Type":Type,
-#     "Name":Name,
-#     "Phone":Phone,
-#     "Address":Address,
-#     "City":City,
-#     "Pincode":Pincode,
-#     "Country":Country,
-#     "Timings":Timings,
-#     "Mode_of_Payment":Mode_of_Payment,
-#     "Currency":Currency,
-#     "Link_to_profile":Link_to_profile, 
-# }
+dataset = {
+    # "Brand Name":brand_name,
+    # "Generic Name":generic_name,
+    # "Drug Type":drug_type,
+    # "Route":route,
+    # "Dosage Form":dosage_form,
+    # "Dates":dates,
+    "Data to be filtered": data_all
+}
 
-# datum = pd.DataFrame(dataset)
-# datum.to_csv("lucknow_aaris_kazi.csv")
+datum = pd.DataFrame(dataset)
+datum.to_csv("health_a_i.csv")
 
