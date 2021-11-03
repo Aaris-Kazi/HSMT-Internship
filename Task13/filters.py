@@ -45,17 +45,24 @@ def looper_state(x):
         elif ' <p><b>Data Current As Of</b>:' in x[i]:
             g = extractor(x[i])
             dates.append(g)
-        elif len(b_name)>len(route):
-            route.append('NaN')
         else:
             pass
+        
+    print(len(b_name), len(route))
+    if len(b_name) > len(route):
+        route.append('NaN')
+        print(len(b_name), len(route))
+        print('append')
+    else:
+        pass
 
 
 df = pd.read_csv('C:\\Users\\aaris\\Desktop\\forinternship\\HSMT-Internship\\health_a_i.csv')
-for i in range(len(df)):
+for i in range(0,len(df)):
     x = df.iloc[i].values
     # print(x)
     looper_state(x)
+    # break
 
 print(len(b_name),len(g_name),len(drug_type),len(route),len(dosage_form),len(dates))
 
