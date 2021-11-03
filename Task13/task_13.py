@@ -13,7 +13,7 @@ drug_facts = []
 data_all = []
 Link_to_profile=[]
 
-url = "https://www.healthgrades.com/drugs/fda/a-z/alpha-b"
+url = "https://www.healthgrades.com/drugs/fda/a-z/alpha-c"
 resp = requests.get(url)
 resp.status_code
 resp.reason
