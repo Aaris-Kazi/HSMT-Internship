@@ -14,11 +14,36 @@ def extractor(x):
         f = x.split('<span>')
         g = f[1]
         g = g.split('</span>')
-        return g[0]
+        g1 = g[0]
+        if '<a class="Link"' in g1:
+            y = g1.split('>')
+            # print(y)
+            st1 = y[0]
+            st2 = y[1]
+            n = st1.split('<a')
+            n1 = st2.split('</a')
+            stm1 =n[0]
+            stm2 =n1[0]
+            stm = stm1+stm2
+            return stm
+        else:
+            return g1
     except:
+        
         f = x.split('</b>: ')
         g = f[1]
-        return g
+        if '<a class="Link"' in g:
+            y = g.split('>')
+            st1 = y[0]
+            st2 = y[1]
+            n = st1.split('<a')
+            n1 = st2.split('</a')
+            stm1 =n[0]
+            stm2 =n1[0]
+            stm = stm1+stm2
+            return stm
+        else:
+            return g
 
 def looper_state(x):
     x = str(x)
@@ -60,11 +85,10 @@ def looper_state(x):
 df = pd.read_csv('C:\\Users\\aaris\\Desktop\\forinternship\\HSMT-Internship\\health_a_i.csv')
 for i in range(0,len(df)):
     x = df.iloc[i].values
-    # print(x)
     looper_state(x)
-    # break
-
+    
 print(len(b_name),len(g_name),len(drug_type),len(route),len(dosage_form),len(dates))
+# print(b_name,g_name,drug_type,route,dosage_form,dates)
 
 sf = pd.DataFrame({
     "Brand Name":b_name,
