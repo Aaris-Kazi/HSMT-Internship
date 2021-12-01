@@ -25,6 +25,22 @@ try:
     time.sleep(1)
     opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/button')
     opt.click()
+    time.sleep(3)
+    # name =driver.find_element_by_xpath('//*[@id="main"]/div/main/div/div[2]/div/div[2]/div/div/section/article[2]/div[1]/div[1]/div/div[1]/div/div[2]/div[1]/a')
+    # print(name.text)
+    names = driver.find_elements_by_class_name('cmGgZN')
+    for i in names:
+        print(i.text)
+    practitioner = driver.find_elements_by_class_name('jyfAkd')
+    for i in practitioner:
+        print(i.text)
+    rating = driver.find_elements_by_class_name('dWnIDu')
+    for i in rating:
+        print(i.text)
+    count_rating = driver.find_elements_by_class_name('ehwwpF')
+    for i in count_rating:
+        print(i.text)
+    # //*[@id="main"]/div/main/div/div[2]/div/div[2]/div/div/section/article[3]/div[1]/div[1]/div/div[1]/div/div[2]/div[1]/a
 except Exception as e:
     pass
 time.sleep(5)
