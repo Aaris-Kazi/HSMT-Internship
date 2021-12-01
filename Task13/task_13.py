@@ -17,7 +17,7 @@ url = "https://www.healthgrades.com/drugs/fda/a-z/alpha-i"
 resp = requests.get(url)
 resp.status_code
 resp.reason
-soup = bs4.BeautifulSoup(resp.content)
+soup = bs4.BeautifulSoup(resp.content, features='lxml')
 # print(soup)
 data = soup.find_all("li", attrs={"class":"DrugSectionList-items-item"} )
 
