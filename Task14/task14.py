@@ -29,15 +29,17 @@ try:
     # name =driver.find_element_by_xpath('//*[@id="main"]/div/main/div/div[2]/div/div[2]/div/div/section/article[2]/div[1]/div[1]/div/div[1]/div/div[2]/div[1]/a')
     # print(name.text)
     names = driver.find_elements_by_class_name('cmGgZN')
+    practitioner = driver.find_elements_by_class_name('jyfAkd')
+    rating = driver.find_elements_by_class_name('dWnIDu')
+    count_rating = driver.find_elements_by_class_name('ehwwpF')
+    next = driver.find_element_by_xpath('//*[@id="main"]/div/main/div/nav/span[2]/a')
+    # //*[@id="main"]/div/main/div/nav/span[3]/a
     for i in names:
         print(i.text)
-    practitioner = driver.find_elements_by_class_name('jyfAkd')
     for i in practitioner:
         print(i.text)
-    rating = driver.find_elements_by_class_name('dWnIDu')
     for i in rating:
         print(i.text)
-    count_rating = driver.find_elements_by_class_name('ehwwpF')
     for i in count_rating:
         print(i.text)
     # //*[@id="main"]/div/main/div/div[2]/div/div[2]/div/div/section/article[3]/div[1]/div[1]/div/div[1]/div/div[2]/div[1]/a
