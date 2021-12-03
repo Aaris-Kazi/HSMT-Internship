@@ -24,23 +24,23 @@ def looping(i):
     rating = driver.find_elements_by_class_name('dWnIDu')
     count_rating = driver.find_elements_by_class_name('ehwwpF')
     for a,b,c,d in zip(names, practitioner, rating, count_rating):
-            name.append(a.text)
-            designation.append(b.text)
-            rate.append(c.text)
-            rate_count.append(d.text)
-            print(a.text)
+        name.append(a.text)
+        designation.append(b.text)
+        rate.append(c.text)
+        rate_count.append(d.text)
+        print(a.text)
     print(len(name),len(designation),len(rate),len(rate_count))
     time.sleep(2)
     next = driver.find_element_by_xpath('//*[@id="main"]/div/main/div/nav/span['+str(i)+']/a')
-    # next.click()
-    driver.execute_script("arguments[0].click();", next)
+    next.click()
+    # driver.execute_script("arguments[0].click();", next)
     # print(len(name),len(designation),len(rate),len(rate_count))
     # //*[@id="main"]/div/main/div/nav/span[3]/a
 
 search =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[2]/input')
 search.click()
 time.sleep(1)
-opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[4]/div[4]/div')
+opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[4]/div[5]/div')
 # //*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[4]/div[3]
 opt.click()
 time.sleep(1)
@@ -49,6 +49,7 @@ opt.click()
 time.sleep(3)
 for i in range(2,10):
     looping(i)
+    # break
 driver.close()
 driver.quit()
 
