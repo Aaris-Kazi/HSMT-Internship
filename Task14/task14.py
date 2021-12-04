@@ -47,7 +47,7 @@ time.sleep(1)
 opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/button')
 opt.click()
 time.sleep(3)
-for i in range(2,10):
+for i in range(2,6):
     looping(i)
     # break
 driver.close()
