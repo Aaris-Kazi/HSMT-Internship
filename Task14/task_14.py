@@ -6,6 +6,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
+spec = input('Enter Specialist:-')
+loc = input('Enter Location:-')
+
 name, designation, rate, rate_count = [],[],[],[]
 PATH = 'chromedriver.exe'
 options = webdriver.ChromeOptions()
@@ -15,9 +18,7 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('--disable-blink-features=AutomationControlled')
 driver = webdriver.Chrome(PATH, options=options)
 
-url = 'https://www.zocdoc.com/'
-driver.get(url)
-def looping(i):
+def looping():
     time.sleep(5)
     names = driver.find_elements_by_class_name('cmGgZN')
     practitioner = driver.find_elements_by_class_name('jyfAkd')
@@ -29,35 +30,35 @@ def looping(i):
         rate.append(c.text)
         rate_count.append(d.text)
         print(a.text)
+        print(c.text)
+        
     print(len(name),len(designation),len(rate),len(rate_count))
     time.sleep(2)
-    next = driver.find_element_by_xpath('//*[@id="main"]/div/main/div/nav/span['+str(i)+']/a')
-    next.click()
-    # driver.execute_script("arguments[0].click();", next)
-    # print(len(name),len(designation),len(rate),len(rate_count))
-    # //*[@id="main"]/div/main/div/nav/span[3]/a
+    # next = driver.find_element_by_xpath('//*[@id="main"]/div/main/div/nav/span['+str(i)+']/a')
+    # next.click()
 
+
+
+url = 'https://www.zocdoc.com/'
+driver.get(url)
+time.sleep(1)
 search =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[2]/input')
 search.click()
-time.sleep(1)
-opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[4]/div[63]')
-# //*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[4]/div[3]
+search.send_keys(spec)
+time.sleep(3)
+opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[1]/div/div/div[4]/div[1]')
 opt.click()
-time.sleep(1)
-opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/button')
+button =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[3]/div/div[2]/div/div[1]/input')
+button.click()
+button.send_keys(loc)
+time.sleep(3)
+opt =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/div/div/div[3]/div/div[2]/div[2]/div/div[1]')
 opt.click()
+search1 =driver.find_element_by_xpath('//*[@id="main"]/div[1]/main/div[1]/section/div/div/div/form/div/button')
+search1.click()
 time.sleep(3)
 driver.execute_script("window.scrollTo(0, 150)") 
-for i in range(2,6):
-    looping(i)
-    # break
+looping()
+time.sleep(2)
 driver.close()
 driver.quit()
-
-df = pd.DataFrame({
-    "Name": name,
-    "Practitioner": designation,
-    "Ratings": rate,
-    "Raring Counts": rate_count,
-})
-df.to_csv('zocdoc_aaris.csv', header = False, mode='a')
